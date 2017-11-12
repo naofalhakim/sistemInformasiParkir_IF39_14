@@ -1,0 +1,561 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: id"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Memasukan Data User",
+        "description": "",
+        "id": "mengelola-user-akun;memasukan-data-user",
+        "type": "scenario",
+        "keyword": "Skenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Data user baru dimasukan dan tidak duplikat dengan data yang sudah ada di sistem",
+            "match": {},
+            "keyword": "Dengan "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "Memasukan data user baru",
+            "match": {},
+            "keyword": "Ketika "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "Data baru user sudah benar",
+            "match": {},
+            "keyword": "Dan "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "respon \"register berhasil\"",
+            "match": {},
+            "keyword": "Maka "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Normal"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Mengedit Data User",
+        "description": "",
+        "id": "mengelola-user-akun;mengedit-data-user",
+        "type": "scenario",
+        "keyword": "Skenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "Data user yang sudah ada di dalam sistem dan data user tidak sesuai",
+            "match": {},
+            "keyword": "Dengan "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "memasukkan data edit user yang baru",
+            "match": {},
+            "keyword": "Ketika "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "data edit user yang baru sudah benar",
+            "match": {},
+            "keyword": "Dan "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "respon \"update berhasil\"",
+            "match": {},
+            "keyword": "Maka "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@Normal"
+          }
+        ]
+      }
+    ],
+    "name": "Mengelola User Akun",
+    "description": "      Megelola Data User",
+    "id": "mengelola-user-akun",
+    "keyword": "Fitur",
+    "uri": "com/mycompany/impal/test/DataUser.feature"
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: id"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Validasi Id parkir user",
+        "description": "",
+        "id": "pemantauan-spot-parkir;validasi-id-parkir-user",
+        "type": "scenario",
+        "keyword": "Skenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "pengecekan data\ttransaksi parkir dan data inputan berupa id user",
+            "match": {},
+            "keyword": "Dengan "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "data hasil pengecekan sama( benar )",
+            "match": {},
+            "keyword": "Ketika "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "user parkir bisa melakukan pemantauan kendaraan",
+            "match": {},
+            "keyword": "Maka "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "menampilkan visualisasi dari pemantauan kendaraan",
+            "match": {},
+            "keyword": "Dan "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "data hasil pengecekan tidak ditemukan id transaksi user( salah )",
+            "match": {},
+            "keyword": "Ketika "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "user tidak bisa melakukan pemantauan kendaraan",
+            "match": {},
+            "keyword": "Maka "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "akan tampil notofikasi id yang di inputkan salah",
+            "match": {},
+            "keyword": "Dan "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Normal"
+          }
+        ]
+      }
+    ],
+    "name": "Pemantauan spot parkir",
+    "description": "      Mengetahui kondisi kendaraan melalui kamera",
+    "id": "pemantauan-spot-parkir",
+    "keyword": "Fitur",
+    "uri": "com/mycompany/impal/test/PantauParkir.feature"
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: id"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Memasukan Data Pemesanan Spot Parkir",
+        "description": "",
+        "id": "pesan-spot-parkir;memasukan-data-pemesanan-spot-parkir",
+        "type": "scenario",
+        "keyword": "Skenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Data user, dan Data Pemesanana baru dimasukan dan tidak duplikat dengan data yang sudah ada di sistem",
+            "match": {},
+            "keyword": "Dengan "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "Memasukan data pemesanan",
+            "match": {},
+            "keyword": "Ketika "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "Data baru pemesanan sudah benar",
+            "match": {},
+            "keyword": "Dan "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "respon \"pemesanan spot parkir berhasil\"",
+            "match": {},
+            "keyword": "Maka "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Normal"
+          }
+        ]
+      }
+    ],
+    "name": "Pesan Spot Parkir",
+    "description": "      Memesan Spot parkir",
+    "id": "pesan-spot-parkir",
+    "keyword": "Fitur",
+    "uri": "com/mycompany/impal/test/PesanSpotParkir.feature"
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: id"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Validasi Id parkir user",
+        "description": "",
+        "id": "rekap-transaksi-parkir;validasi-id-parkir-user",
+        "type": "scenario",
+        "keyword": "Skenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "pengecekan data transaksi parkir dan data inputan berupa id user",
+            "match": {},
+            "keyword": "Dengan "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "data hasil pengecekan sama( benar )",
+            "match": {},
+            "keyword": "Ketika "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "bisa melakukan cek spot kendaraan",
+            "match": {},
+            "keyword": "Maka "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "menampilkan lokasi spot kendaraan",
+            "match": {},
+            "keyword": "Dan "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "data hasil pengecekan tidak ditemukan id transaksi user( salah )",
+            "match": {},
+            "keyword": "Ketika "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "akan tampil notifikasi id yang di inputkan salah",
+            "match": {},
+            "keyword": "Maka "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Normal"
+          }
+        ]
+      }
+    ],
+    "name": "Rekap Transaksi Parkir",
+    "description": "      Mengetahui tempat kendaraan melalui kamera",
+    "id": "rekap-transaksi-parkir",
+    "keyword": "Fitur",
+    "uri": "com/mycompany/impal/test/RekapAreaParkir.feature"
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: id"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Mengecek User Pesan Spot",
+        "description": "",
+        "id": "perhitungan-lama-parkir-user;mengecek-user-pesan-spot",
+        "type": "scenario",
+        "keyword": "Skenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "pengecekan data transaksi pemesanan spot parkir dan data user parkir",
+            "match": {},
+            "keyword": "Dengan "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "data hasil pengecekan sama( benar )",
+            "match": {},
+            "keyword": "Ketika "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "user parkir bisa parkir sesuai dengan tempet yang dipesan",
+            "match": {},
+            "keyword": "Maka "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "data hasil pengecekan tidak ditemukan( salah )",
+            "match": {},
+            "keyword": "Ketika "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "user parkir berdasarkan spot tempat parkir yang di tentukan",
+            "match": {},
+            "keyword": "Maka "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Normal"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Perhitungan waktu user",
+        "description": "",
+        "id": "perhitungan-lama-parkir-user;perhitungan-waktu-user",
+        "type": "scenario",
+        "keyword": "Skenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "data parkir user masuk dengan status parkir di sistem dan tidak duplikat",
+            "match": {},
+            "keyword": "Dengan "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "data sudah masuk ke sistem, maka countup akan di mulai",
+            "match": {},
+            "keyword": "Ketika "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "countup sudah mulai menghitung",
+            "match": {},
+            "keyword": "Ketika "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "respon \"user mulai parkir\" dan akan mulai dihitung juga untuk biaya parkir user",
+            "match": {},
+            "keyword": "Maka "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@Normal"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Perhitungan biaya parkir",
+        "description": "",
+        "id": "perhitungan-lama-parkir-user;perhitungan-biaya-parkir",
+        "type": "scenario",
+        "keyword": "Skenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "data durasi parkir, pada data parkir",
+            "match": {},
+            "keyword": "Dengan "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24,
+            "name": "data durasi user lebih dari 1 detik ( biaya parkir awal )",
+            "match": {},
+            "keyword": "Ketika "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "perhitungan biaya parkir \u003d 2000",
+            "match": {},
+            "keyword": "Maka "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26,
+            "name": "data durasi parkir user lebih dari 1 jam",
+            "match": {},
+            "keyword": "Ketika "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27,
+            "name": "biaya parkir menjadi biaya parkir awal + n( biaya parkir tiap jam ) x 1000",
+            "match": {},
+            "keyword": "Maka "
+          }
+        ],
+        "tags": [
+          {
+            "line": 21,
+            "name": "@Normal"
+          }
+        ]
+      }
+    ],
+    "name": "Perhitungan Lama Parkir User",
+    "description": "      Mengetahui biaya dan lama parkir user",
+    "id": "perhitungan-lama-parkir-user",
+    "keyword": "Fitur",
+    "uri": "com/mycompany/impal/test/TransaksiParkir.feature"
+  }
+]

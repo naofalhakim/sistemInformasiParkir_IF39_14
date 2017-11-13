@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="55" failures="0" name="com.mycompany.impal.test.DataUserTest" time="1.53" errors="0" skipped="47">
+<testsuite tests="48" failures="0" name="com.mycompany.impal.test.DataUserTest" time="1.376" errors="0" skipped="7">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\bin"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\Karir\Kuliah\Semester 5\IMPAL 4 ( 3 Kamis KU.01.03.08 ) ( 1 Kamis IFLAB 5)\impal tubes\Impal nao\Impal nao\Impal"/>
+    <property name="user.dir" value="D:\Karir\Kuliah\Semester 5\IMPAL 4 ( 3 Kamis KU.01.03.08 ) ( 1 Kamis IFLAB 5)\impal tubes\Impal"/>
     <property name="java.runtime.version" value="1.8.0_60-b27"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\endorsed"/>
@@ -29,7 +29,7 @@
     <property name="maven.ext.class.path" value="C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar"/>
     <property name="classworlds.conf" value="C:\Program Files\NetBeans 8.2\java\maven\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_60\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;F:\Program files\Python\Scripts\;F:\Program files\Python\;C:\Users\naofal\AppData\Local\Microsoft\WindowsApps;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Java\jdk1.8.0_60\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_60\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;D:\Karir\Kuliah\Semester 5\IMPAL 4 ( 3 Kamis KU.01.03.08 ) ( 1 Kamis IFLAB 5)\TubesImpal1\sonar-scanner-3.0.3.778-windows\bin;F:\Program files\Python\Scripts\;F:\Program files\Python\;C:\Users\naofal\AppData\Local\Microsoft\WindowsApps;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Java\jdk1.8.0_60\bin;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,153 +61,66 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Skenario: Memasukan Data User" name="Dengan Data user baru dimasukan dan tidak duplikat dengan data yang sudah ada di sistem" time="0.012">
+  <testcase classname="Skenario: Memasukan Data User" name="Dengan Data user baru dimasukan dan tidak duplikat dengan data yang sudah ada di sistem" time="0.002"/>
+  <testcase classname="Skenario: Memasukan Data User" name="Ketika Memasukan data user baru" time="0"/>
+  <testcase classname="Skenario: Memasukan Data User" name="Dan Data baru user sudah benar" time="0.004"/>
+  <testcase classname="Skenario: Memasukan Data User" name="Maka respon \&quot;register berhasil\&quot;" time="0.002"/>
+  <testcase classname="Skenario: Memasukan Data User" name="Skenario: Memasukan Data User" time="0.004"/>
+  <testcase classname="Skenario: Mengedit Data User" name="Dengan Data user yang sudah ada di dalam sistem dan data user tidak sesuai" time="0.002"/>
+  <testcase classname="Skenario: Mengedit Data User" name="Ketika memasukkan data edit user yang baru" time="0.001"/>
+  <testcase classname="Skenario: Mengedit Data User" name="Dan data edit user yang baru sudah benar" time="0"/>
+  <testcase classname="Skenario: Mengedit Data User" name="Maka respon \&quot;update berhasil\&quot;" time="0"/>
+  <testcase classname="Skenario: Mengedit Data User" name="Skenario: Mengedit Data User" time="0"/>
+  <testcase classname="Skenario: Validasi Id parkir user" name="Dengan pengecekan data\ttransaksi parkir dan data inputan berupa id user" time="0"/>
+  <testcase classname="Ketika data hasil pengecekan sama( benar )(Skenario: Validasi Id parkir user)" name="Ketika data hasil pengecekan sama" time="0"/>
+  <testcase classname="Skenario: Validasi Id parkir user" name="Maka user parkir bisa melakukan pemantauan kendaraan" time="0"/>
+  <testcase classname="Skenario: Validasi Id parkir user" name="Dan menampilkan visualisasi dari pemantauan kendaraan" time="0"/>
+  <testcase classname="Ketika data hasil pengecekan tidak ditemukan id transaksi user( salah )(Skenario: Validasi Id parkir user)" name="Ketika data hasil pengecekan tidak ditemukan id transaksi user" time="0"/>
+  <testcase classname="Skenario: Validasi Id parkir user" name="Maka user tidak bisa melakukan pemantauan kendaraan" time="0"/>
+  <testcase classname="Skenario: Validasi Id parkir user" name="Dan akan tampil notofikasi id yang di inputkan salah" time="0"/>
+  <testcase classname="Skenario: Validasi Id parkir user" name="Skenario: Validasi Id parkir user" time="0.001"/>
+  <testcase classname="Skenario: Memasukan Data Pemesanan Spot Parkir" name="Dengan Data user\u002C dan Data Pemesanana baru dimasukan dan tidak duplikat dengan data yang sudah ada di sistem" time="0"/>
+  <testcase classname="Skenario: Memasukan Data Pemesanan Spot Parkir" name="Ketika Memasukan data pemesanan" time="0"/>
+  <testcase classname="Skenario: Memasukan Data Pemesanan Spot Parkir" name="Dan Data baru pemesanan sudah benar" time="0.001"/>
+  <testcase classname="Skenario: Memasukan Data Pemesanan Spot Parkir" name="Maka respon \&quot;pemesanan spot parkir berhasil\&quot;" time="0"/>
+  <testcase classname="Skenario: Memasukan Data Pemesanan Spot Parkir" name="Skenario: Memasukan Data Pemesanan Spot Parkir" time="0.001"/>
+  <testcase classname="Skenario: Validasi Id parkir user" name="Dengan pengecekan data transaksi parkir dan data inputan berupa id user" time="0.017">
     <skipped/>
   </testcase>
-  <testcase classname="Skenario: Memasukan Data User" name="Ketika Memasukan data user baru" time="0.019">
+  <testcase classname="Ketika data hasil pengecekan sama( benar )(Skenario: Validasi Id parkir user)" name="Ketika data hasil pengecekan sama" time="0.025">
     <skipped/>
   </testcase>
-  <testcase classname="Skenario: Memasukan Data User" name="Dan Data baru user sudah benar" time="0.019">
+  <testcase classname="Skenario: Validasi Id parkir user" name="Maka bisa melakukan cek spot kendaraan" time="0.026">
     <skipped/>
   </testcase>
-  <testcase classname="Skenario: Memasukan Data User" name="Maka respon \&quot;register berhasil\&quot;" time="0.019">
+  <testcase classname="Skenario: Validasi Id parkir user" name="Dan menampilkan lokasi spot kendaraan" time="0.027">
     <skipped/>
   </testcase>
-  <testcase classname="Skenario: Memasukan Data User" name="Skenario: Memasukan Data User" time="0.019">
+  <testcase classname="Ketika data hasil pengecekan tidak ditemukan id transaksi user( salah )(Skenario: Validasi Id parkir user)" name="Ketika data hasil pengecekan tidak ditemukan id transaksi user" time="0.033">
     <skipped/>
   </testcase>
-  <testcase classname="Skenario: Memasukan Data User" name="Skenario: Memasukan Data User" time="0.02"/>
-  <testcase classname="Skenario: Mengedit Data User" name="Dengan Data user yang sudah ada di dalam sistem dan data user tidak sesuai" time="0.015">
+  <testcase classname="Skenario: Validasi Id parkir user" name="Maka akan tampil notifikasi id yang di inputkan salah" time="0.033">
     <skipped/>
   </testcase>
-  <testcase classname="Skenario: Mengedit Data User" name="Ketika memasukkan data edit user yang baru" time="0.017">
+  <testcase classname="Skenario: Validasi Id parkir user" name="Skenario: Validasi Id parkir user" time="0.033">
     <skipped/>
   </testcase>
-  <testcase classname="Skenario: Mengedit Data User" name="Dan data edit user yang baru sudah benar" time="0.018">
-    <skipped/>
-  </testcase>
-  <testcase classname="Skenario: Mengedit Data User" name="Maka respon \&quot;update berhasil\&quot;" time="0.02">
-    <skipped/>
-  </testcase>
-  <testcase classname="Skenario: Mengedit Data User" name="Skenario: Mengedit Data User" time="0.02">
-    <skipped/>
-  </testcase>
-  <testcase classname="Skenario: Mengedit Data User" name="Skenario: Mengedit Data User" time="0.02"/>
-  <testcase classname="Skenario: Validasi Id parkir user" name="Dengan pengecekan data\ttransaksi parkir dan data inputan berupa id user" time="0.005">
-    <skipped/>
-  </testcase>
-  <testcase classname="Ketika data hasil pengecekan sama( benar )(Skenario: Validasi Id parkir user)" name="Ketika data hasil pengecekan sama" time="0.006">
-    <skipped/>
-  </testcase>
-  <testcase classname="Skenario: Validasi Id parkir user" name="Maka user parkir bisa melakukan pemantauan kendaraan" time="0.007">
-    <skipped/>
-  </testcase>
-  <testcase classname="Skenario: Validasi Id parkir user" name="Dan menampilkan visualisasi dari pemantauan kendaraan" time="0.007">
-    <skipped/>
-  </testcase>
-  <testcase classname="Ketika data hasil pengecekan tidak ditemukan id transaksi user( salah )(Skenario: Validasi Id parkir user)" name="Ketika data hasil pengecekan tidak ditemukan id transaksi user" time="0.009">
-    <skipped/>
-  </testcase>
-  <testcase classname="Skenario: Validasi Id parkir user" name="Maka user tidak bisa melakukan pemantauan kendaraan" time="0.009">
-    <skipped/>
-  </testcase>
-  <testcase classname="Skenario: Validasi Id parkir user" name="Dan akan tampil notofikasi id yang di inputkan salah" time="0.01">
-    <skipped/>
-  </testcase>
-  <testcase classname="Skenario: Validasi Id parkir user" name="Skenario: Validasi Id parkir user" time="0.01">
-    <skipped/>
-  </testcase>
-  <testcase classname="Skenario: Validasi Id parkir user" name="Skenario: Validasi Id parkir user" time="0.01"/>
-  <testcase classname="Skenario: Memasukan Data Pemesanan Spot Parkir" name="Dengan Data user\u002C dan Data Pemesanana baru dimasukan dan tidak duplikat dengan data yang sudah ada di sistem" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="Skenario: Memasukan Data Pemesanan Spot Parkir" name="Ketika Memasukan data pemesanan" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="Skenario: Memasukan Data Pemesanan Spot Parkir" name="Dan Data baru pemesanan sudah benar" time="0.003">
-    <skipped/>
-  </testcase>
-  <testcase classname="Skenario: Memasukan Data Pemesanan Spot Parkir" name="Maka respon \&quot;pemesanan spot parkir berhasil\&quot;" time="0.007">
-    <skipped/>
-  </testcase>
-  <testcase classname="Skenario: Memasukan Data Pemesanan Spot Parkir" name="Skenario: Memasukan Data Pemesanan Spot Parkir" time="0.007">
-    <skipped/>
-  </testcase>
-  <testcase classname="Skenario: Memasukan Data Pemesanan Spot Parkir" name="Skenario: Memasukan Data Pemesanan Spot Parkir" time="0.007"/>
-  <testcase classname="Skenario: Validasi Id parkir user" name="Dengan pengecekan data transaksi parkir dan data inputan berupa id user" time="0.005">
-    <skipped/>
-  </testcase>
-  <testcase classname="Ketika data hasil pengecekan sama( benar )(Skenario: Validasi Id parkir user)" name="Ketika data hasil pengecekan sama" time="0.005">
-    <skipped/>
-  </testcase>
-  <testcase classname="Skenario: Validasi Id parkir user" name="Maka bisa melakukan cek spot kendaraan" time="0.006">
-    <skipped/>
-  </testcase>
-  <testcase classname="Skenario: Validasi Id parkir user" name="Dan menampilkan lokasi spot kendaraan" time="0.007">
-    <skipped/>
-  </testcase>
-  <testcase classname="Ketika data hasil pengecekan tidak ditemukan id transaksi user( salah )(Skenario: Validasi Id parkir user)" name="Ketika data hasil pengecekan tidak ditemukan id transaksi user" time="0.009">
-    <skipped/>
-  </testcase>
-  <testcase classname="Skenario: Validasi Id parkir user" name="Maka akan tampil notifikasi id yang di inputkan salah" time="0.01">
-    <skipped/>
-  </testcase>
-  <testcase classname="Skenario: Validasi Id parkir user" name="Skenario: Validasi Id parkir user" time="0.011">
-    <skipped/>
-  </testcase>
-  <testcase classname="Skenario: Validasi Id parkir user" name="Skenario: Validasi Id parkir user" time="0.011"/>
-  <testcase classname="Skenario: Mengecek User Pesan Spot" name="Dengan pengecekan data transaksi pemesanan spot parkir dan data user parkir" time="0.007">
-    <skipped/>
-  </testcase>
-  <testcase classname="Ketika data hasil pengecekan sama( benar )(Skenario: Mengecek User Pesan Spot)" name="Ketika data hasil pengecekan sama" time="0.007">
-    <skipped/>
-  </testcase>
-  <testcase classname="Skenario: Mengecek User Pesan Spot" name="Maka user parkir bisa parkir sesuai dengan tempet yang dipesan" time="0.008">
-    <skipped/>
-  </testcase>
-  <testcase classname="Ketika data hasil pengecekan tidak ditemukan( salah )(Skenario: Mengecek User Pesan Spot)" name="Ketika data hasil pengecekan tidak ditemukan" time="0.009">
-    <skipped/>
-  </testcase>
-  <testcase classname="Skenario: Mengecek User Pesan Spot" name="Maka user parkir berdasarkan spot tempat parkir yang di tentukan" time="0.01">
-    <skipped/>
-  </testcase>
-  <testcase classname="Skenario: Mengecek User Pesan Spot" name="Skenario: Mengecek User Pesan Spot" time="0.012">
-    <skipped/>
-  </testcase>
-  <testcase classname="Skenario: Mengecek User Pesan Spot" name="Skenario: Mengecek User Pesan Spot" time="0.012"/>
-  <testcase classname="Skenario: Perhitungan waktu user" name="Dengan data parkir user masuk dengan status parkir di sistem dan tidak duplikat" time="0.006">
-    <skipped/>
-  </testcase>
-  <testcase classname="Skenario: Perhitungan waktu user" name="Ketika data sudah masuk ke sistem\u002C maka countup akan di mulai" time="0.006">
-    <skipped/>
-  </testcase>
-  <testcase classname="Skenario: Perhitungan waktu user" name="Ketika countup sudah mulai menghitung" time="0.007">
-    <skipped/>
-  </testcase>
-  <testcase classname="Skenario: Perhitungan waktu user" name="Maka respon \&quot;user mulai parkir\&quot; dan akan mulai dihitung juga untuk biaya parkir user" time="0.008">
-    <skipped/>
-  </testcase>
-  <testcase classname="Skenario: Perhitungan waktu user" name="Skenario: Perhitungan waktu user" time="0.008">
-    <skipped/>
-  </testcase>
-  <testcase classname="Skenario: Perhitungan waktu user" name="Skenario: Perhitungan waktu user" time="0.009"/>
-  <testcase classname="Skenario: Perhitungan biaya parkir" name="Dengan data durasi parkir\u002C pada data parkir" time="0.013">
-    <skipped/>
-  </testcase>
-  <testcase classname="Ketika data durasi user lebih dari 1 detik ( biaya parkir awal )(Skenario: Perhitungan biaya parkir)" name="Ketika data durasi user lebih dari 1 detik " time="0.016">
-    <skipped/>
-  </testcase>
-  <testcase classname="Skenario: Perhitungan biaya parkir" name="Maka perhitungan biaya parkir = 2000" time="0.016">
-    <skipped/>
-  </testcase>
-  <testcase classname="Skenario: Perhitungan biaya parkir" name="Ketika data durasi parkir user lebih dari 1 jam" time="0.016">
-    <skipped/>
-  </testcase>
-  <testcase classname="Maka biaya parkir menjadi biaya parkir awal + n( biaya parkir tiap jam ) x 1000(Skenario: Perhitungan biaya parkir)" name="Maka biaya parkir menjadi biaya parkir awal + n" time="0.016">
-    <skipped/>
-  </testcase>
-  <testcase classname="Skenario: Perhitungan biaya parkir" name="Skenario: Perhitungan biaya parkir" time="0.017">
-    <skipped/>
-  </testcase>
-  <testcase classname="Skenario: Perhitungan biaya parkir" name="Skenario: Perhitungan biaya parkir" time="0.017"/>
+  <testcase classname="Skenario: Validasi Id parkir user" name="Skenario: Validasi Id parkir user" time="0.033"/>
+  <testcase classname="Skenario: Mengecek User Pesan Spot" name="Dengan pengecekan data transaksi pemesanan spot parkir dan data user parkir" time="0"/>
+  <testcase classname="Ketika data hasil pengecekan sama( benar )(Skenario: Mengecek User Pesan Spot)" name="Ketika data hasil pengecekan sama" time="0"/>
+  <testcase classname="Skenario: Mengecek User Pesan Spot" name="Maka user parkir bisa parkir sesuai dengan tempet yang dipesan" time="0"/>
+  <testcase classname="Ketika data hasil pengecekan tidak ditemukan( salah )(Skenario: Mengecek User Pesan Spot)" name="Ketika data hasil pengecekan tidak ditemukan" time="0"/>
+  <testcase classname="Skenario: Mengecek User Pesan Spot" name="Maka user parkir berdasarkan spot tempat parkir yang di tentukan" time="0"/>
+  <testcase classname="Skenario: Mengecek User Pesan Spot" name="Skenario: Mengecek User Pesan Spot" time="0"/>
+  <testcase classname="Skenario: Perhitungan waktu user" name="Dengan data parkir user masuk dengan status parkir di sistem dan tidak duplikat" time="0"/>
+  <testcase classname="Skenario: Perhitungan waktu user" name="Ketika data sudah masuk ke sistem\u002C maka countup akan di mulai" time="0"/>
+  <testcase classname="Skenario: Perhitungan waktu user" name="Ketika countup sudah mulai menghitung" time="0"/>
+  <testcase classname="Skenario: Perhitungan waktu user" name="Maka respon \&quot;user mulai parkir\&quot; dan akan mulai dihitung juga untuk biaya parkir user" time="0"/>
+  <testcase classname="Skenario: Perhitungan waktu user" name="Skenario: Perhitungan waktu user" time="0"/>
+  <testcase classname="Skenario: Perhitungan biaya parkir" name="Dengan data durasi parkir\u002C pada data parkir" time="0"/>
+  <testcase classname="Ketika data durasi user lebih dari 1 detik ( biaya parkir awal )(Skenario: Perhitungan biaya parkir)" name="Ketika data durasi user lebih dari 1 detik " time="0"/>
+  <testcase classname="Skenario: Perhitungan biaya parkir" name="Maka perhitungan biaya parkir = 2000" time="0"/>
+  <testcase classname="Skenario: Perhitungan biaya parkir" name="Ketika data durasi parkir user lebih dari 1 jam" time="0"/>
+  <testcase classname="Maka biaya parkir menjadi biaya parkir awal + n( biaya parkir tiap jam ) x 1000(Skenario: Perhitungan biaya parkir)" name="Maka biaya parkir menjadi biaya parkir awal + n" time="0"/>
+  <testcase classname="Skenario: Perhitungan biaya parkir" name="Skenario: Perhitungan biaya parkir" time="0.001"/>
 </testsuite>

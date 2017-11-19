@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.mycompany.impal.test.PesanSpotParkirTest
 -------------------------------------------------------------------------------
-Tests run: 48, Failures: 0, Errors: 0, Skipped: 7, Time elapsed: 1.005 sec
+Tests run: 48, Failures: 0, Errors: 0, Skipped: 7, Time elapsed: 0.469 sec

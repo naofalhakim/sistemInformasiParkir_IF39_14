@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.mycompany.impal.test.TransaksiParkirTest
 -------------------------------------------------------------------------------
-Tests run: 48, Failures: 0, Errors: 0, Skipped: 7, Time elapsed: 0.031 sec
+Tests run: 48, Failures: 0, Errors: 0, Skipped: 7, Time elapsed: 0.219 sec

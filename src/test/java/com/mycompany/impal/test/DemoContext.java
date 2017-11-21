@@ -57,7 +57,7 @@ public void data_edit_user_yang_baru_sudah_benar() throws Throwable {
     
 }
 
-@Dengan("^pengecekan data	transaksi parkir dan data inputan berupa id user$")
+@Dengan("^pengecekan data transaksi parkir dan data inputan berupa id user$")
 public void pengecekan_data_transaksi_parkir_dan_data_inputan_berupa_id_user() throws Throwable {
     // Write code here that turns the phrase above into concrete actions
     
@@ -117,11 +117,18 @@ public void data_baru_pemesanan_sudah_benar() throws Throwable {
     
 }
 
-//@Dengan("^pengecekan data transaksi parkir dan data inputan berupa id user$")
-//public void pengecekan_data_transaksi_parkir_dan_data_inputan_berupa_id_user() throws Throwable {
-//    // Write code here that turns the phrase above into concrete actions
-//    throw new PendingException();
-//}
+@Dengan("^pengecekan data transaksi parkir dan data inputan berupa id user ditemukan$")
+public void pengecekan_data_transaksi_parkir_dan_data_inputan_berupa_id_user_ditemukan() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    
+}
+
+@Dengan("^pengecekan data transaksi parkir dan data inputan berupa id user tidak ditemukan$")
+public void pengecekan_data_transaksi_parkir_dan_data_inputan_berupa_id_user_tidak_ditemukan() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    
+}
+
 
 @Maka("^bisa melakukan cek spot kendaraan$")
 public void bisa_melakukan_cek_spot_kendaraan() throws Throwable {
@@ -218,4 +225,65 @@ public void biaya_parkir_menjadi_biaya_parkir_awal_n_biaya_parkir_tiap_jam_x(int
     // Write code here that turns the phrase above into concrete actions
     
 }
+
+//@Dengan("^pengecekan data transaksi parkir dan data inputan berupa id user$")
+//public void pengecekan_data_transaksi_parkir_dan_data_inputan_berupa_id_user() throws Throwable {
+//    // Write code here that turns the phrase above into concrete actions
+//    throw new PendingException();
+//}
+
+@Maka("^menampilkan \"([^\"]*)\"$")
+public void menampilkan(String arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+ 
+}
+
+@Maka("^akan tampil notofikasi \"([^\"]*)\"$")
+public void akan_tampil_notofikasi(String arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+ 
+}
+
+@Ketika("^data hasil pengecekan ditemukan atau sama\\( benar \\)$")
+public void data_hasil_pengecekan_ditemukan_atau_sama_benar() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+ 
+}
+
+@Maka("^bisa melakukan cek spot kendaraan dan menampilkan \"([^\"]*)\"$")
+public void bisa_melakukan_cek_spot_kendaraan_dan_menampilkan(String arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+ 
+}
+
+@Maka("^akan tampil notifikasi \"([^\"]*)\"$")
+public void akan_tampil_notifikasi(String arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+ 
+}
+
+@Dengan("^pengecekan data user baru dimasukan dan tidak duplikat dengan data yang sudah ada di sistem$")
+public void pengecekan_data_user_baru_dimasukan_dan_tidak_duplikat_dengan_data_yang_sudah_ada_di_sistem() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    
+}
+
+@Ketika("^Memasukan data user baru ke dalam sistem$")
+public void memasukan_data_user_baru_ke_dalam_sistem() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    
+}
+
+@Dengan("^Pengecekan data baru dimasukan dan terdapat duplikat dengan data yang sudah ada di sistem$")
+public void pengecekan_data_baru_dimasukan_dan_terdapat_duplikat_dengan_data_yang_sudah_ada_di_sistem() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    
+}
+
+@Ketika("^Data baru user sudah benar tetap terdapat duplikasi$")
+public void data_baru_user_sudah_benar_tetap_terdapat_duplikasi() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    
+}
+
 }

@@ -5,10 +5,19 @@
  */
 package com.mycompany.impal;
 
+import com.mycompany.impal.model.Pengendara;
+
 /**
  *
  * @author naofal
  */
 public class PesanSpotPrakir {
+    private Pengendara pemesan;
+    private String idPemesanan;
+    private String idlokasi;
+
+    public PesanSpotPrakir() {
+    }
+    
     
 }

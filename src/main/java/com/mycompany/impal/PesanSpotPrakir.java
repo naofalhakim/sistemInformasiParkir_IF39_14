@@ -12,14 +12,14 @@ import com.mycompany.impal.model.Pengendara;
  * @author naofal
  */
 public class PesanSpotPrakir {
+
     private Pengendara pemesan;
     private String idPemesanan;
     private String idlokasi;
 
-<<<<<<< HEAD
     public PesanSpotPrakir() {
     }
-=======
+
     public Pengendara getPemesan() {
         return pemesan;
     }
@@ -49,10 +49,5 @@ public class PesanSpotPrakir {
         this.idPemesanan = idPemesanan;
         this.idlokasi = idlokasi;
     }
-    
-    
-    
->>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
-    
-    
+
 }

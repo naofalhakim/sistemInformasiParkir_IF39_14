@@ -50,21 +50,33 @@ formatter.match({
   "location": "DemoContext.data_user_baru_dimasukan_dan_tidak_duplikat_dengan_data_yang_sudah_ada_di_sistem()"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 21642570,
+=======
+  "duration": 1738047,
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
   "status": "passed"
 });
 formatter.match({
   "location": "DemoContext.memasukan_data_user_baru()"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 30344,
+=======
+  "duration": 10931,
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
   "status": "passed"
 });
 formatter.match({
   "location": "DemoContext.data_baru_user_sudah_benar()"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 21419,
+=======
+  "duration": 7758,
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
   "status": "passed"
 });
 formatter.match({
@@ -77,7 +89,79 @@ formatter.match({
   "location": "DemoContext.respon(String)"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 7701919,
+=======
+  "duration": 529630,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 14,
+  "name": "Mengedit Data User",
+  "description": "",
+  "id": "mengelola-user-akun;mengedit-data-user",
+  "type": "scenario",
+  "keyword": "Skenario",
+  "tags": [
+    {
+      "line": 13,
+      "name": "@Normal"
+    }
+  ]
+});
+formatter.step({
+  "line": 15,
+  "name": "Data user yang sudah ada di dalam sistem dan data user tidak sesuai",
+  "keyword": "Dengan "
+});
+formatter.step({
+  "line": 16,
+  "name": "memasukkan data edit user yang baru",
+  "keyword": "Ketika "
+});
+formatter.step({
+  "line": 17,
+  "name": "data edit user yang baru sudah benar",
+  "keyword": "Dan "
+});
+formatter.step({
+  "line": 18,
+  "name": "respon \"update berhasil\"",
+  "keyword": "Maka "
+});
+formatter.match({
+  "location": "DemoContext.data_user_yang_sudah_ada_di_dalam_sistem_dan_data_user_tidak_sesuai()"
+});
+formatter.result({
+  "duration": 23625,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DemoContext.memasukkan_data_edit_user_yang_baru()"
+});
+formatter.result({
+  "duration": 8816,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DemoContext.data_edit_user_yang_baru_sudah_benar()"
+});
+formatter.result({
+  "duration": 8110,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "update berhasil",
+      "offset": 8
+    }
+  ],
+  "location": "DemoContext.respon(String)"
+});
+formatter.result({
+  "duration": 72639,
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
   "status": "passed"
 });
 formatter.uri("com/mycompany/impal/test/PantauParkir.feature");
@@ -88,14 +172,22 @@ formatter.feature({
       "value": "# language: id"
     }
   ],
+<<<<<<< HEAD
   "line": 2,
+=======
+  "line": 3,
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
   "name": "Pemantauan spot parkir",
   "description": "      Mengetahui kondisi kendaraan melalui kamera",
   "id": "pemantauan-spot-parkir",
   "keyword": "Fitur"
 });
 formatter.scenario({
+<<<<<<< HEAD
   "line": 6,
+=======
+  "line": 7,
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
   "name": "Validasi Id parkir user benar",
   "description": "",
   "id": "pemantauan-spot-parkir;validasi-id-parkir-user-benar",
@@ -103,22 +195,35 @@ formatter.scenario({
   "keyword": "Skenario",
   "tags": [
     {
+<<<<<<< HEAD
       "line": 5,
+=======
+      "line": 6,
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
       "name": "@Normal"
     }
   ]
 });
 formatter.step({
+<<<<<<< HEAD
   "line": 7,
+=======
+  "line": 8,
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
   "name": "pengecekan data transaksi parkir dan data inputan berupa id user ditemukan",
   "keyword": "Dengan "
 });
 formatter.step({
+<<<<<<< HEAD
   "line": 8,
+=======
+  "line": 9,
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
   "name": "data hasil pengecekan sama( benar )",
   "keyword": "Ketika "
 });
 formatter.step({
+<<<<<<< HEAD
   "line": 9,
   "name": "respone pantau berhasil \"munculkan visualisasi dari pemantauan kendaraan\"",
   "keyword": "Maka "
@@ -135,11 +240,42 @@ formatter.match({
 });
 formatter.result({
   "duration": 36145,
+=======
+  "line": 10,
+  "name": "user parkir bisa melakukan pemantauan kendaraan",
+  "keyword": "Maka "
+});
+formatter.step({
+  "line": 11,
+  "name": "menampilkan \"visualisasi dari pemantauan kendaraan\"",
+  "keyword": "Maka "
+});
+formatter.match({
+  "location": "DemoContext.pengecekan_data_transaksi_parkir_dan_data_inputan_berupa_id_user_ditemukan()"
+});
+formatter.result({
+  "duration": 26093,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DemoContext.data_hasil_pengecekan_sama_benar()"
+});
+formatter.result({
+  "duration": 10226,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DemoContext.user_parkir_bisa_melakukan_pemantauan_kendaraan()"
+});
+formatter.result({
+  "duration": 7757,
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
+<<<<<<< HEAD
       "val": "munculkan visualisasi dari pemantauan kendaraan",
       "offset": 25
     }
@@ -152,6 +288,20 @@ formatter.result({
 });
 formatter.scenario({
   "line": 12,
+=======
+      "val": "visualisasi dari pemantauan kendaraan",
+      "offset": 13
+    }
+  ],
+  "location": "DemoContext.menampilkan(String)"
+});
+formatter.result({
+  "duration": 49366,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 15,
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
   "name": "Validasi Id parkir user salah",
   "description": "",
   "id": "pemantauan-spot-parkir;validasi-id-parkir-user-salah",
@@ -159,22 +309,35 @@ formatter.scenario({
   "keyword": "Skenario",
   "tags": [
     {
+<<<<<<< HEAD
       "line": 11,
+=======
+      "line": 14,
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
       "name": "@Sekunder"
     }
   ]
 });
 formatter.step({
+<<<<<<< HEAD
   "line": 13,
+=======
+  "line": 16,
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
   "name": "pengecekan data transaksi parkir dan data inputan berupa id user tidak ditemukan",
   "keyword": "Dengan "
 });
 formatter.step({
+<<<<<<< HEAD
   "line": 14,
+=======
+  "line": 17,
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
   "name": "data hasil pengecekan tidak ditemukan id transaksi user( salah )",
   "keyword": "Ketika "
 });
 formatter.step({
+<<<<<<< HEAD
   "line": 15,
   "name": "respone pantau gagal \"tidak bisa melakukan pemantauan kendaraan, id yang di inputkan salah\"",
   "keyword": "Maka "
@@ -191,11 +354,42 @@ formatter.match({
 });
 formatter.result({
   "duration": 31236,
+=======
+  "line": 18,
+  "name": "user tidak bisa melakukan pemantauan kendaraan",
+  "keyword": "Maka "
+});
+formatter.step({
+  "line": 19,
+  "name": "akan tampil notofikasi \"id yang di inputkan salah\"",
+  "keyword": "Maka "
+});
+formatter.match({
+  "location": "DemoContext.pengecekan_data_transaksi_parkir_dan_data_inputan_berupa_id_user_tidak_ditemukan()"
+});
+formatter.result({
+  "duration": 23273,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DemoContext.data_hasil_pengecekan_tidak_ditemukan_id_transaksi_user_salah()"
+});
+formatter.result({
+  "duration": 8815,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DemoContext.user_tidak_bisa_melakukan_pemantauan_kendaraan()"
+});
+formatter.result({
+  "duration": 8110,
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
+<<<<<<< HEAD
       "val": "tidak bisa melakukan pemantauan kendaraan, id yang di inputkan salah",
       "offset": 22
     }
@@ -204,6 +398,16 @@ formatter.match({
 });
 formatter.result({
   "duration": 87907,
+=======
+      "val": "id yang di inputkan salah",
+      "offset": 24
+    }
+  ],
+  "location": "DemoContext.akan_tampil_notofikasi(String)"
+});
+formatter.result({
+  "duration": 49719,
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
   "status": "passed"
 });
 formatter.uri("com/mycompany/impal/test/PesanSpotParkir.feature");
@@ -222,9 +426,15 @@ formatter.feature({
 });
 formatter.scenario({
   "line": 7,
+<<<<<<< HEAD
   "name": "Memasukan Data Pemesanan Spot Parkir Berhasil",
   "description": "",
   "id": "pesan-spot-parkir;memasukan-data-pemesanan-spot-parkir-berhasil",
+=======
+  "name": "Memasukan Data Pemesanan Spot Parkir",
+  "description": "",
+  "id": "pesan-spot-parkir;memasukan-data-pemesanan-spot-parkir",
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
   "type": "scenario",
   "keyword": "Skenario",
   "tags": [
@@ -251,6 +461,7 @@ formatter.step({
 });
 formatter.step({
   "line": 11,
+<<<<<<< HEAD
   "name": "respon pesan berhasil \"pemesanan spot parkir berhasil\"",
   "keyword": "Maka "
 });
@@ -273,12 +484,37 @@ formatter.match({
 });
 formatter.result({
   "duration": 37037,
+=======
+  "name": "respon \"pemesanan spot parkir berhasil\"",
+  "keyword": "Maka "
+});
+formatter.match({
+  "location": "DemoContext.data_user_dan_Data_Pemesanana_baru_dimasukan_dan_tidak_duplikat_dengan_data_yang_sudah_ada_di_sistem()"
+});
+formatter.result({
+  "duration": 25036,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DemoContext.memasukan_data_pemesanan()"
+});
+formatter.result({
+  "duration": 10226,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DemoContext.data_baru_pemesanan_sudah_benar()"
+});
+formatter.result({
+  "duration": 8110,
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
       "val": "pemesanan spot parkir berhasil",
+<<<<<<< HEAD
       "offset": 23
     }
   ],
@@ -354,6 +590,15 @@ formatter.match({
 });
 formatter.result({
   "duration": 83445,
+=======
+      "offset": 8
+    }
+  ],
+  "location": "DemoContext.respon(String)"
+});
+formatter.result({
+  "duration": 42666,
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
   "status": "passed"
 });
 formatter.uri("com/mycompany/impal/test/Register.feature");
@@ -401,6 +646,7 @@ formatter.step({
 });
 formatter.step({
   "line": 11,
+<<<<<<< HEAD
   "name": "respon register berhasil \"register berhasil\"",
   "keyword": "Maka "
 });
@@ -416,19 +662,41 @@ formatter.match({
 });
 formatter.result({
   "duration": 36145,
+=======
+  "name": "respon \"register berhasil\"",
+  "keyword": "Maka "
+});
+formatter.match({
+  "location": "DemoContext.pengecekan_data_user_baru_dimasukan_dan_tidak_duplikat_dengan_data_yang_sudah_ada_di_sistem()"
+});
+formatter.result({
+  "duration": 37730,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DemoContext.memasukan_data_user_baru_ke_dalam_sistem()"
+});
+formatter.result({
+  "duration": 9873,
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
   "status": "passed"
 });
 formatter.match({
   "location": "DemoContext.data_baru_user_sudah_benar()"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 62026,
+=======
+  "duration": 9874,
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
       "val": "register berhasil",
+<<<<<<< HEAD
       "offset": 26
     }
   ],
@@ -436,6 +704,15 @@ formatter.match({
 });
 formatter.result({
   "duration": 112004,
+=======
+      "offset": 8
+    }
+  ],
+  "location": "DemoContext.respon(String)"
+});
+formatter.result({
+  "duration": 55008,
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
   "status": "passed"
 });
 formatter.scenario({
@@ -469,6 +746,7 @@ formatter.step({
 });
 formatter.step({
   "line": 18,
+<<<<<<< HEAD
   "name": "respon register gagal \"register gagal, username sudah pernah terdaftar\"",
   "keyword": "Maka "
 });
@@ -491,11 +769,36 @@ formatter.match({
 });
 formatter.result({
   "duration": 29451,
+=======
+  "name": "respon \"register gagal, username sudah pernah terdaftarr\"",
+  "keyword": "Maka "
+});
+formatter.match({
+  "location": "DemoContext.pengecekan_data_baru_dimasukan_dan_terdapat_duplikat_dengan_data_yang_sudah_ada_di_sistem()"
+});
+formatter.result({
+  "duration": 22920,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DemoContext.memasukan_data_user_baru_ke_dalam_sistem()"
+});
+formatter.result({
+  "duration": 10226,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DemoContext.data_baru_user_sudah_benar_tetap_terdapat_duplikasi()"
+});
+formatter.result({
+  "duration": 12694,
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
+<<<<<<< HEAD
       "val": "register gagal, username sudah pernah terdaftar",
       "offset": 23
     }
@@ -504,6 +807,16 @@ formatter.match({
 });
 formatter.result({
   "duration": 100848,
+=======
+      "val": "register gagal, username sudah pernah terdaftarr",
+      "offset": 8
+    }
+  ],
+  "location": "DemoContext.respon(String)"
+});
+formatter.result({
+  "duration": 43372,
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
   "status": "passed"
 });
 formatter.uri("com/mycompany/impal/test/RekapAreaParkir.feature");
@@ -546,6 +859,7 @@ formatter.step({
 });
 formatter.step({
   "line": 10,
+<<<<<<< HEAD
   "name": "respon berhasil menampilkan \"lokasi spot kendaraan\"",
   "keyword": "Maka "
 });
@@ -561,12 +875,30 @@ formatter.match({
 });
 formatter.result({
   "duration": 66042,
+=======
+  "name": "bisa melakukan cek spot kendaraan dan menampilkan \"lokasi spot kendaraan\"",
+  "keyword": "Maka "
+});
+formatter.match({
+  "location": "DemoContext.pengecekan_data_transaksi_parkir_dan_data_inputan_berupa_id_user_ditemukan()"
+});
+formatter.result({
+  "duration": 26799,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DemoContext.data_hasil_pengecekan_ditemukan_atau_sama_benar()"
+});
+formatter.result({
+  "duration": 11636,
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
       "val": "lokasi spot kendaraan",
+<<<<<<< HEAD
       "offset": 29
     }
   ],
@@ -574,6 +906,15 @@ formatter.match({
 });
 formatter.result({
   "duration": 121375,
+=======
+      "offset": 51
+    }
+  ],
+  "location": "DemoContext.bisa_melakukan_cek_spot_kendaraan_dan_menampilkan(String)"
+});
+formatter.result({
+  "duration": 50072,
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
   "status": "passed"
 });
 formatter.scenario({
@@ -602,6 +943,7 @@ formatter.step({
 });
 formatter.step({
   "line": 16,
+<<<<<<< HEAD
   "name": "respon rekap spot gagal menampilkan \"id yang di inputkan salah\"",
   "keyword": "Maka "
 });
@@ -617,12 +959,30 @@ formatter.match({
 });
 formatter.result({
   "duration": 37484,
+=======
+  "name": "akan tampil notifikasi \"id yang di inputkan salah\"",
+  "keyword": "Maka "
+});
+formatter.match({
+  "location": "DemoContext.pengecekan_data_transaksi_parkir_dan_data_inputan_berupa_id_user_tidak_ditemukan()"
+});
+formatter.result({
+  "duration": 22215,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DemoContext.data_hasil_pengecekan_tidak_ditemukan_id_transaksi_user_salah()"
+});
+formatter.result({
+  "duration": 14105,
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
       "val": "id yang di inputkan salah",
+<<<<<<< HEAD
       "offset": 37
     }
   ],
@@ -630,6 +990,15 @@ formatter.match({
 });
 formatter.result({
   "duration": 116466,
+=======
+      "offset": 24
+    }
+  ],
+  "location": "DemoContext.akan_tampil_notifikasi(String)"
+});
+formatter.result({
+  "duration": 47956,
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
   "status": "passed"
 });
 formatter.uri("com/mycompany/impal/test/TransaksiParkir.feature");
@@ -686,6 +1055,7 @@ formatter.step({
   "keyword": "Maka "
 });
 formatter.match({
+<<<<<<< HEAD
   "location": "TransaksiParkirContext.pengecekan_data_transaksi_pemesanan_spot_parkir_dan_data_user_parkir()"
 });
 formatter.result({
@@ -718,6 +1088,40 @@ formatter.match({
 });
 formatter.result({
   "duration": 36145,
+=======
+  "location": "DemoContext.pengecekan_data_transaksi_pemesanan_spot_parkir_dan_data_user_parkir()"
+});
+formatter.result({
+  "duration": 35262,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DemoContext.data_hasil_pengecekan_sama_benar()"
+});
+formatter.result({
+  "duration": 8815,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DemoContext.user_parkir_bisa_parkir_sesuai_dengan_tempet_yang_dipesan()"
+});
+formatter.result({
+  "duration": 11283,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DemoContext.data_hasil_pengecekan_tidak_ditemukan_salah()"
+});
+formatter.result({
+  "duration": 8815,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DemoContext.user_parkir_berdasarkan_spot_tempat_parkir_yang_di_tentukan()"
+});
+formatter.result({
+  "duration": 8463,
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
   "status": "passed"
 });
 formatter.scenario({
@@ -755,6 +1159,7 @@ formatter.step({
   "keyword": "Maka "
 });
 formatter.match({
+<<<<<<< HEAD
   "location": "TransaksiParkirContext.data_parkir_user_masuk_dengan_status_parkir_di_sistem_dan_tidak_duplikat()"
 });
 formatter.result({
@@ -773,6 +1178,26 @@ formatter.match({
 });
 formatter.result({
   "duration": 22312,
+=======
+  "location": "DemoContext.data_parkir_user_masuk_dengan_status_parkir_di_sistem_dan_tidak_duplikat()"
+});
+formatter.result({
+  "duration": 20452,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DemoContext.data_sudah_masuk_ke_sistem_maka_countup_akan_di_mulai()"
+});
+formatter.result({
+  "duration": 8463,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DemoContext.countup_sudah_mulai_menghitung()"
+});
+formatter.result({
+  "duration": 8462,
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
   "status": "passed"
 });
 formatter.match({
@@ -782,10 +1207,17 @@ formatter.match({
       "offset": 8
     }
   ],
+<<<<<<< HEAD
   "location": "TransaksiParkirContext.respon_dan_akan_mulai_dihitung_juga_untuk_biaya_parkir_user(String)"
 });
 formatter.result({
   "duration": 78536,
+=======
+  "location": "DemoContext.respon_dan_akan_mulai_dihitung_juga_untuk_biaya_parkir_user(String)"
+});
+formatter.result({
+  "duration": 45840,
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
   "status": "passed"
 });
 formatter.scenario({
@@ -828,10 +1260,17 @@ formatter.step({
   "keyword": "Maka "
 });
 formatter.match({
+<<<<<<< HEAD
   "location": "TransaksiParkirContext.data_durasi_parkir_pada_data_parkir()"
 });
 formatter.result({
   "duration": 58902,
+=======
+  "location": "DemoContext.data_durasi_parkir_pada_data_parkir()"
+});
+formatter.result({
+  "duration": 26094,
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
   "status": "passed"
 });
 formatter.match({
@@ -841,10 +1280,17 @@ formatter.match({
       "offset": 28
     }
   ],
+<<<<<<< HEAD
   "location": "TransaksiParkirContext.data_durasi_user_lebih_dari_detik_biaya_parkir_awal(int)"
 });
 formatter.result({
   "duration": 226238,
+=======
+  "location": "DemoContext.data_durasi_user_lebih_dari_detik_biaya_parkir_awal(int)"
+});
+formatter.result({
+  "duration": 131526,
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
   "status": "passed"
 });
 formatter.match({
@@ -854,10 +1300,17 @@ formatter.match({
       "offset": 27
     }
   ],
+<<<<<<< HEAD
   "location": "TransaksiParkirContext.perhitungan_biaya_parkir(int)"
 });
 formatter.result({
   "duration": 113342,
+=======
+  "location": "DemoContext.perhitungan_biaya_parkir(int)"
+});
+formatter.result({
+  "duration": 78986,
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
   "status": "passed"
 });
 formatter.match({
@@ -867,10 +1320,17 @@ formatter.match({
       "offset": 35
     }
   ],
+<<<<<<< HEAD
   "location": "TransaksiParkirContext.data_durasi_parkir_user_lebih_dari_jam(int)"
 });
 formatter.result({
   "duration": 113342,
+=======
+  "location": "DemoContext.data_durasi_parkir_user_lebih_dari_jam(int)"
+});
+formatter.result({
+  "duration": 71228,
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
   "status": "passed"
 });
 formatter.match({
@@ -880,10 +1340,17 @@ formatter.match({
       "offset": 70
     }
   ],
+<<<<<<< HEAD
   "location": "TransaksiParkirContext.biaya_parkir_menjadi_biaya_parkir_awal_n_biaya_parkir_tiap_jam_x(int)"
 });
 formatter.result({
   "duration": 102633,
+=======
+  "location": "DemoContext.biaya_parkir_menjadi_biaya_parkir_awal_n_biaya_parkir_tiap_jam_x(int)"
+});
+formatter.result({
+  "duration": 706291,
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
   "status": "passed"
 });
 });

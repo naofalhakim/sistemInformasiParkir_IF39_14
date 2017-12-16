@@ -10,6 +10,7 @@ package com.mycompany.impal;
  * @author naofal
  */
 public class DataUser {
+<<<<<<< HEAD
     private String email;
     private String noktp;
     private String jeniskendaraan;
@@ -44,5 +45,7 @@ public class DataUser {
         this.jeniskendaraan = jeniskendaraan;
     }
     
+=======
+>>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
     
 }

@@ -51,10 +51,14 @@ formatter.match({
 });
 formatter.result({
 <<<<<<< HEAD
+<<<<<<< HEAD
   "duration": 21642570,
 =======
   "duration": 1738047,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+  "duration": 100222534,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
   "status": "passed"
 });
 formatter.match({
@@ -62,10 +66,14 @@ formatter.match({
 });
 formatter.result({
 <<<<<<< HEAD
+<<<<<<< HEAD
   "duration": 30344,
 =======
   "duration": 10931,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+  "duration": 24988,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
   "status": "passed"
 });
 formatter.match({
@@ -73,10 +81,14 @@ formatter.match({
 });
 formatter.result({
 <<<<<<< HEAD
+<<<<<<< HEAD
   "duration": 21419,
 =======
   "duration": 7758,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+  "duration": 22758,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
   "status": "passed"
 });
 formatter.match({
@@ -90,9 +102,13 @@ formatter.match({
 });
 formatter.result({
 <<<<<<< HEAD
+<<<<<<< HEAD
   "duration": 7701919,
 =======
   "duration": 529630,
+=======
+  "duration": 1161974,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
   "status": "passed"
 });
 formatter.scenario({
@@ -133,21 +149,21 @@ formatter.match({
   "location": "DemoContext.data_user_yang_sudah_ada_di_dalam_sistem_dan_data_user_tidak_sesuai()"
 });
 formatter.result({
-  "duration": 23625,
+  "duration": 41053,
   "status": "passed"
 });
 formatter.match({
   "location": "DemoContext.memasukkan_data_edit_user_yang_baru()"
 });
 formatter.result({
-  "duration": 8816,
+  "duration": 43730,
   "status": "passed"
 });
 formatter.match({
   "location": "DemoContext.data_edit_user_yang_baru_sudah_benar()"
 });
 formatter.result({
-  "duration": 8110,
+  "duration": 24096,
   "status": "passed"
 });
 formatter.match({
@@ -160,8 +176,12 @@ formatter.match({
   "location": "DemoContext.respon(String)"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 72639,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+  "duration": 1562240,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
   "status": "passed"
 });
 formatter.uri("com/mycompany/impal/test/PantauParkir.feature");
@@ -254,22 +274,26 @@ formatter.match({
   "location": "DemoContext.pengecekan_data_transaksi_parkir_dan_data_inputan_berupa_id_user_ditemukan()"
 });
 formatter.result({
-  "duration": 26093,
+  "duration": 49085,
   "status": "passed"
 });
 formatter.match({
   "location": "DemoContext.data_hasil_pengecekan_sama_benar()"
 });
 formatter.result({
-  "duration": 10226,
+  "duration": 23650,
   "status": "passed"
 });
 formatter.match({
   "location": "DemoContext.user_parkir_bisa_melakukan_pemantauan_kendaraan()"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 7757,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+  "duration": 26774,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
   "status": "passed"
 });
 formatter.match({
@@ -296,7 +320,7 @@ formatter.scenario({
   "location": "DemoContext.menampilkan(String)"
 });
 formatter.result({
-  "duration": 49366,
+  "duration": 120035,
   "status": "passed"
 });
 formatter.scenario({
@@ -368,22 +392,26 @@ formatter.match({
   "location": "DemoContext.pengecekan_data_transaksi_parkir_dan_data_inputan_berupa_id_user_tidak_ditemukan()"
 });
 formatter.result({
-  "duration": 23273,
+  "duration": 96831,
   "status": "passed"
 });
 formatter.match({
   "location": "DemoContext.data_hasil_pengecekan_tidak_ditemukan_id_transaksi_user_salah()"
 });
 formatter.result({
-  "duration": 8815,
+  "duration": 37483,
   "status": "passed"
 });
 formatter.match({
   "location": "DemoContext.user_tidak_bisa_melakukan_pemantauan_kendaraan()"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 8110,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+  "duration": 30790,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
   "status": "passed"
 });
 formatter.match({
@@ -406,8 +434,12 @@ formatter.result({
   "location": "DemoContext.akan_tampil_notofikasi(String)"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 49719,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+  "duration": 10159245,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
   "status": "passed"
 });
 formatter.uri("com/mycompany/impal/test/PesanSpotParkir.feature");
@@ -492,22 +524,26 @@ formatter.match({
   "location": "DemoContext.data_user_dan_Data_Pemesanana_baru_dimasukan_dan_tidak_duplikat_dengan_data_yang_sudah_ada_di_sistem()"
 });
 formatter.result({
-  "duration": 25036,
+  "duration": 43730,
   "status": "passed"
 });
 formatter.match({
   "location": "DemoContext.memasukan_data_pemesanan()"
 });
 formatter.result({
-  "duration": 10226,
+  "duration": 26774,
   "status": "passed"
 });
 formatter.match({
   "location": "DemoContext.data_baru_pemesanan_sudah_benar()"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 8110,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+  "duration": 22758,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
   "status": "passed"
 });
 formatter.match({
@@ -597,8 +633,12 @@ formatter.result({
   "location": "DemoContext.respon(String)"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 42666,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+  "duration": 78090,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
   "status": "passed"
 });
 formatter.uri("com/mycompany/impal/test/Register.feature");
@@ -670,15 +710,19 @@ formatter.match({
   "location": "DemoContext.pengecekan_data_user_baru_dimasukan_dan_tidak_duplikat_dengan_data_yang_sudah_ada_di_sistem()"
 });
 formatter.result({
-  "duration": 37730,
+  "duration": 48192,
   "status": "passed"
 });
 formatter.match({
   "location": "DemoContext.memasukan_data_user_baru_ke_dalam_sistem()"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 9873,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+  "duration": 17403,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
   "status": "passed"
 });
 formatter.match({
@@ -686,10 +730,14 @@ formatter.match({
 });
 formatter.result({
 <<<<<<< HEAD
+<<<<<<< HEAD
   "duration": 62026,
 =======
   "duration": 9874,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+  "duration": 20526,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
   "status": "passed"
 });
 formatter.match({
@@ -711,8 +759,12 @@ formatter.result({
   "location": "DemoContext.respon(String)"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 55008,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+  "duration": 108433,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
   "status": "passed"
 });
 formatter.scenario({
@@ -777,22 +829,26 @@ formatter.match({
   "location": "DemoContext.pengecekan_data_baru_dimasukan_dan_terdapat_duplikat_dengan_data_yang_sudah_ada_di_sistem()"
 });
 formatter.result({
-  "duration": 22920,
+  "duration": 52655,
   "status": "passed"
 });
 formatter.match({
   "location": "DemoContext.memasukan_data_user_baru_ke_dalam_sistem()"
 });
 formatter.result({
-  "duration": 10226,
+  "duration": 24543,
   "status": "passed"
 });
 formatter.match({
   "location": "DemoContext.data_baru_user_sudah_benar_tetap_terdapat_duplikasi()"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 12694,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+  "duration": 21865,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
   "status": "passed"
 });
 formatter.match({
@@ -815,8 +871,12 @@ formatter.result({
   "location": "DemoContext.respon(String)"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 43372,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+  "duration": 120481,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
   "status": "passed"
 });
 formatter.uri("com/mycompany/impal/test/RekapAreaParkir.feature");
@@ -883,15 +943,19 @@ formatter.match({
   "location": "DemoContext.pengecekan_data_transaksi_parkir_dan_data_inputan_berupa_id_user_ditemukan()"
 });
 formatter.result({
-  "duration": 26799,
+  "duration": 45962,
   "status": "passed"
 });
 formatter.match({
   "location": "DemoContext.data_hasil_pengecekan_ditemukan_atau_sama_benar()"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 11636,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+  "duration": 26327,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
   "status": "passed"
 });
 formatter.match({
@@ -913,8 +977,12 @@ formatter.result({
   "location": "DemoContext.bisa_melakukan_cek_spot_kendaraan_dan_menampilkan(String)"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 50072,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+  "duration": 154395,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
   "status": "passed"
 });
 formatter.scenario({
@@ -967,15 +1035,19 @@ formatter.match({
   "location": "DemoContext.pengecekan_data_transaksi_parkir_dan_data_inputan_berupa_id_user_tidak_ditemukan()"
 });
 formatter.result({
-  "duration": 22215,
+  "duration": 41499,
   "status": "passed"
 });
 formatter.match({
   "location": "DemoContext.data_hasil_pengecekan_tidak_ditemukan_id_transaksi_user_salah()"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 14105,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+  "duration": 20527,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
   "status": "passed"
 });
 formatter.match({
@@ -997,8 +1069,12 @@ formatter.result({
   "location": "DemoContext.akan_tampil_notifikasi(String)"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 47956,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+  "duration": 95046,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
   "status": "passed"
 });
 formatter.uri("com/mycompany/impal/test/TransaksiParkir.feature");
@@ -1092,36 +1168,40 @@ formatter.result({
   "location": "DemoContext.pengecekan_data_transaksi_pemesanan_spot_parkir_dan_data_user_parkir()"
 });
 formatter.result({
-  "duration": 35262,
+  "duration": 38822,
   "status": "passed"
 });
 formatter.match({
   "location": "DemoContext.data_hasil_pengecekan_sama_benar()"
 });
 formatter.result({
-  "duration": 8815,
+  "duration": 20080,
   "status": "passed"
 });
 formatter.match({
   "location": "DemoContext.user_parkir_bisa_parkir_sesuai_dengan_tempet_yang_dipesan()"
 });
 formatter.result({
-  "duration": 11283,
+  "duration": 18295,
   "status": "passed"
 });
 formatter.match({
   "location": "DemoContext.data_hasil_pengecekan_tidak_ditemukan_salah()"
 });
 formatter.result({
-  "duration": 8815,
+  "duration": 17850,
   "status": "passed"
 });
 formatter.match({
   "location": "DemoContext.user_parkir_berdasarkan_spot_tempat_parkir_yang_di_tentukan()"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 8463,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+  "duration": 20527,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
   "status": "passed"
 });
 formatter.scenario({
@@ -1182,22 +1262,26 @@ formatter.result({
   "location": "DemoContext.data_parkir_user_masuk_dengan_status_parkir_di_sistem_dan_tidak_duplikat()"
 });
 formatter.result({
-  "duration": 20452,
+  "duration": 43730,
   "status": "passed"
 });
 formatter.match({
   "location": "DemoContext.data_sudah_masuk_ke_sistem_maka_countup_akan_di_mulai()"
 });
 formatter.result({
-  "duration": 8463,
+  "duration": 23204,
   "status": "passed"
 });
 formatter.match({
   "location": "DemoContext.countup_sudah_mulai_menghitung()"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 8462,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+  "duration": 23650,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
   "status": "passed"
 });
 formatter.match({
@@ -1216,8 +1300,12 @@ formatter.result({
   "location": "DemoContext.respon_dan_akan_mulai_dihitung_juga_untuk_biaya_parkir_user(String)"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 45840,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+  "duration": 82105,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
   "status": "passed"
 });
 formatter.scenario({
@@ -1269,8 +1357,12 @@ formatter.result({
   "location": "DemoContext.data_durasi_parkir_pada_data_parkir()"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 26094,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+  "duration": 39268,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
   "status": "passed"
 });
 formatter.match({
@@ -1289,8 +1381,12 @@ formatter.result({
   "location": "DemoContext.data_durasi_user_lebih_dari_detik_biaya_parkir_awal(int)"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 131526,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+  "duration": 282461,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
   "status": "passed"
 });
 formatter.match({
@@ -1309,8 +1405,12 @@ formatter.result({
   "location": "DemoContext.perhitungan_biaya_parkir(int)"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 78986,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+  "duration": 99509,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
   "status": "passed"
 });
 formatter.match({
@@ -1329,8 +1429,12 @@ formatter.result({
   "location": "DemoContext.data_durasi_parkir_user_lebih_dari_jam(int)"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 71228,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+  "duration": 124497,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
   "status": "passed"
 });
 formatter.match({
@@ -1349,8 +1453,12 @@ formatter.result({
   "location": "DemoContext.biaya_parkir_menjadi_biaya_parkir_awal_n_biaya_parkir_tiap_jam_x(int)"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 706291,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+  "duration": 118696,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
   "status": "passed"
 });
 });

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 -------------------------------------------------------------------------------
 Test set: com.mycompany.impal.test.TransaksiParkirTest
 -------------------------------------------------------------------------------
@@ -9,3 +10,9 @@ Test set: com.mycompany.impal.test.TransaksiParkirTest
 -------------------------------------------------------------------------------
 Tests run: 60, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+-------------------------------------------------------------------------------
+Test set: com.mycompany.impal.test.TransaksiParkirTest
+-------------------------------------------------------------------------------
+Tests run: 60, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.539 sec
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597

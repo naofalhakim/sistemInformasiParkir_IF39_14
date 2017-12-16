@@ -19,10 +19,14 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 21642570,
 =======
               "duration": 1738047,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+              "duration": 100222534,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 8,
@@ -35,10 +39,14 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 30344,
 =======
               "duration": 10931,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+              "duration": 24988,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 9,
@@ -51,10 +59,14 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 21419,
 =======
               "duration": 7758,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+              "duration": 22758,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 10,
@@ -67,10 +79,14 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 7701919,
 =======
               "duration": 529630,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+              "duration": 1161974,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 11,
@@ -106,7 +122,7 @@
         "steps": [
           {
             "result": {
-              "duration": 23625,
+              "duration": 41053,
               "status": "passed"
             },
             "line": 15,
@@ -118,7 +134,7 @@
           },
           {
             "result": {
-              "duration": 8816,
+              "duration": 43730,
               "status": "passed"
             },
             "line": 16,
@@ -130,7 +146,7 @@
           },
           {
             "result": {
-              "duration": 8110,
+              "duration": 24096,
               "status": "passed"
             },
             "line": 17,
@@ -142,7 +158,7 @@
           },
           {
             "result": {
-              "duration": 72639,
+              "duration": 1562240,
               "status": "passed"
             },
             "line": 18,
@@ -201,6 +217,7 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 2434627,
               "status": "passed"
             },
@@ -210,6 +227,9 @@
               "location": "PantauParkirContext.pengecekan_data_transaksi_parkir_dan_data_inputan_berupa_id_user_ditemukan()"
 =======
               "duration": 26093,
+=======
+              "duration": 49085,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 8,
@@ -223,6 +243,7 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 36145,
               "status": "passed"
             },
@@ -232,6 +253,9 @@
               "location": "PantauParkirContext.data_hasil_pengecekan_sama_benar()"
 =======
               "duration": 10226,
+=======
+              "duration": 23650,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 9,
@@ -244,6 +268,7 @@
           },
           {
             "result": {
+<<<<<<< HEAD
 <<<<<<< HEAD
               "duration": 85676,
               "status": "passed"
@@ -260,6 +285,9 @@
               "location": "PantauParkirContext.respone_pantau_berhasil(String)"
 =======
               "duration": 7757,
+=======
+              "duration": 26774,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 10,
@@ -271,7 +299,7 @@
           },
           {
             "result": {
-              "duration": 49366,
+              "duration": 120035,
               "status": "passed"
             },
             "line": 11,
@@ -315,6 +343,7 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 78090,
               "status": "passed"
             },
@@ -324,6 +353,9 @@
               "location": "PantauParkirContext.pengecekan_data_transaksi_parkir_dan_data_inputan_berupa_id_user_tidak_ditemukan()"
 =======
               "duration": 23273,
+=======
+              "duration": 96831,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 16,
@@ -337,6 +369,7 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 31236,
               "status": "passed"
             },
@@ -346,6 +379,9 @@
               "location": "PantauParkirContext.data_hasil_pengecekan_tidak_ditemukan_id_transaksi_user_salah()"
 =======
               "duration": 8815,
+=======
+              "duration": 37483,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 17,
@@ -358,6 +394,7 @@
           },
           {
             "result": {
+<<<<<<< HEAD
 <<<<<<< HEAD
               "duration": 87907,
               "status": "passed"
@@ -374,6 +411,9 @@
               "location": "PantauParkirContext.respone_pantau_gagal(String)"
 =======
               "duration": 8110,
+=======
+              "duration": 30790,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 18,
@@ -385,7 +425,7 @@
           },
           {
             "result": {
-              "duration": 49719,
+              "duration": 10159245,
               "status": "passed"
             },
             "line": 19,
@@ -447,10 +487,14 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 1671575,
 =======
               "duration": 25036,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+              "duration": 43730,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 8,
@@ -467,10 +511,14 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 36144,
 =======
               "duration": 10226,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+              "duration": 26774,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 9,
@@ -487,10 +535,14 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 37037,
 =======
               "duration": 8110,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+              "duration": 22758,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 10,
@@ -507,6 +559,7 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 90584,
               "status": "passed"
             },
@@ -514,6 +567,9 @@
             "name": "respon pesan berhasil \"pemesanan spot parkir berhasil\"",
 =======
               "duration": 42666,
+=======
+              "duration": 78090,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 11,
@@ -645,10 +701,14 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 65595,
 =======
               "duration": 37730,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+              "duration": 48192,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 8,
@@ -665,10 +725,14 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 36145,
 =======
               "duration": 9873,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+              "duration": 17403,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 9,
@@ -685,10 +749,14 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 62026,
 =======
               "duration": 9874,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+              "duration": 20526,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 10,
@@ -701,6 +769,7 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 112004,
               "status": "passed"
             },
@@ -708,6 +777,9 @@
             "name": "respon register berhasil \"register berhasil\"",
 =======
               "duration": 55008,
+=======
+              "duration": 108433,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 11,
@@ -750,10 +822,14 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 62026,
 =======
               "duration": 22920,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+              "duration": 52655,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 15,
@@ -770,10 +846,14 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 33021,
 =======
               "duration": 10226,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+              "duration": 24543,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 16,
@@ -790,10 +870,14 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 29451,
 =======
               "duration": 12694,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+              "duration": 21865,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 17,
@@ -810,6 +894,7 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 100848,
               "status": "passed"
             },
@@ -825,6 +910,9 @@
               "location": "RegisterContext.respon_register_gagal(String)"
 =======
               "duration": 43372,
+=======
+              "duration": 120481,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 18,
@@ -876,10 +964,14 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 53547,
 =======
               "duration": 26799,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+              "duration": 45962,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 8,
@@ -896,10 +988,14 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 66042,
 =======
               "duration": 11636,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+              "duration": 26327,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 9,
@@ -916,6 +1012,7 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 121375,
               "status": "passed"
             },
@@ -923,6 +1020,9 @@
             "name": "respon berhasil menampilkan \"lokasi spot kendaraan\"",
 =======
               "duration": 50072,
+=======
+              "duration": 154395,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 10,
@@ -965,10 +1065,14 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 53547,
 =======
               "duration": 22215,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+              "duration": 41499,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 14,
@@ -985,10 +1089,14 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 37484,
 =======
               "duration": 14105,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+              "duration": 20527,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 15,
@@ -1005,6 +1113,7 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 116466,
               "status": "passed"
             },
@@ -1012,6 +1121,9 @@
             "name": "respon rekap spot gagal menampilkan \"id yang di inputkan salah\"",
 =======
               "duration": 47956,
+=======
+              "duration": 95046,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 16,
@@ -1070,10 +1182,14 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 57563,
 =======
               "duration": 35262,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+              "duration": 38822,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 8,
@@ -1090,10 +1206,14 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 118251,
 =======
               "duration": 8815,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+              "duration": 20080,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 9,
@@ -1110,10 +1230,14 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 22757,
 =======
               "duration": 11283,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+              "duration": 18295,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 10,
@@ -1130,10 +1254,14 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 17403,
 =======
               "duration": 8815,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+              "duration": 17850,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 11,
@@ -1150,10 +1278,14 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 36145,
 =======
               "duration": 8463,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+              "duration": 20527,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 12,
@@ -1186,10 +1318,14 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 66488,
 =======
               "duration": 20452,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+              "duration": 43730,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 16,
@@ -1206,10 +1342,14 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 21865,
 =======
               "duration": 8463,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+              "duration": 23204,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 17,
@@ -1226,10 +1366,14 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 22312,
 =======
               "duration": 8462,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+              "duration": 23650,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 18,
@@ -1246,10 +1390,14 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 78536,
 =======
               "duration": 45840,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+              "duration": 82105,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 19,
@@ -1288,10 +1436,14 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 58902,
 =======
               "duration": 26094,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+              "duration": 39268,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 23,
@@ -1308,10 +1460,14 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 226238,
 =======
               "duration": 131526,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+              "duration": 282461,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 24,
@@ -1334,10 +1490,14 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 113342,
 =======
               "duration": 78986,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+              "duration": 99509,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 25,
@@ -1360,10 +1520,14 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 113342,
 =======
               "duration": 71228,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+              "duration": 124497,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 26,
@@ -1386,10 +1550,14 @@
           {
             "result": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "duration": 102633,
 =======
               "duration": 706291,
 >>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
+=======
+              "duration": 118696,
+>>>>>>> e0cc2cdffd54de6f76a4a862f392a3cfbe6fb597
               "status": "passed"
             },
             "line": 27,

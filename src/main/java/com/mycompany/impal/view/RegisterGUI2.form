@@ -65,7 +65,11 @@
                   <EmptySpace pref="21" max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
                       <Component id="txtNama" alignment="0" pref="270" max="32767" attributes="0"/>
-                      <Component id="btnRegis" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="btnKembali" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="btnRegis" min="-2" max="-2" attributes="0"/>
+                      </Group>
                       <Component id="txtEmail" alignment="0" pref="270" max="32767" attributes="0"/>
                       <Component id="txtKTP" alignment="0" pref="270" max="32767" attributes="0"/>
                       <Component id="txtpass" max="32767" attributes="0"/>
@@ -111,7 +115,10 @@
                       <Component id="txtpass1" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Component id="btnRegis" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="btnRegis" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnKembali" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
                   <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
               </Group>
           </Group>
@@ -161,6 +168,11 @@
         <Component class="javax.swing.JLabel" name="jLabel6">
           <Properties>
             <Property name="text" type="java.lang.String" value="Register Data Pengendara"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnKembali">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Kembali"/>
           </Properties>
         </Component>
       </SubComponents>

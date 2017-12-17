@@ -53,6 +53,9 @@ public class ControllerRegister implements ActionListener {
                 } else {
                     JOptionPane.showMessageDialog(null, "Password tidak sama");
                 }
+            }else if(source == view.getBtnKembali()){
+                new ControllerLogin();
+                view.setVisible(false);
             }
         } catch (Exception ae) {
         }

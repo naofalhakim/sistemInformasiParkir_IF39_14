@@ -8,6 +8,7 @@ package com.mycompany.impal;
 import com.mycompany.impal.model.Pengendara;
 import java.awt.List;
 import javax.swing.JTable;
+import javax.swing.JTextField;
 
 /**
  *
@@ -43,14 +44,7 @@ public class ApplicationModel {
         for (int i = 0; i < dbConfig.getAllLocation().size(); i++) {
             tblLokasiParkir.setValueAt(dbConfig.getAllLocation().get(i).getIdLokasi(), i, 0);
             tblLokasiParkir.setValueAt(dbConfig.getAllLocation().get(i).getNamaLokasi(), i, 1);
-            tblLokasiParkir.setValueAt(dbConfig.getAllLocation().get(i).getKategori(), i, 2);
-//            if (dbConfig.getAllLocation().get(i).isStatusLokasi() == true) {
-//                status = "booked";
-//            } else {
-//                status = "unbook";
-//            }
-            
-
+            tblLokasiParkir.setValueAt(dbConfig.getAllLocation().get(i).getKategori(), i, 2);   
         }
     }
 
@@ -60,5 +54,9 @@ public class ApplicationModel {
 
     public void pesanLokasi(int idLokasi, String tanggal, String idPengendara) {
         dbConfig.bookLocation(idLokasi, tanggal, idPengendara);
+    }
+
+    void inputTransaksiParkir(String txtNomorPlat, int idLokasi, String idPengendara) {
+       dbConfig.addTransaksiParkir(txtNomorPlat,idLokasi,idPengendara);
     }
 }

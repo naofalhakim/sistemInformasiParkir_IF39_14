@@ -20,17 +20,22 @@ public class ControllerMenuUtama implements ActionListener{
     public ControllerMenuUtama() {
         model = new ApplicationModel();
         view = new MenuUtama();
-        view.setVisible(true);
         view.setActionListener(this);
+        view.setVisible(true);
     }
 
     @Override
     public void actionPerformed(ActionEvent e) {
         Object source = e.getSource();
         if(source == view.getJPantau()){
-            
+            new ControllerParkir();
+            view.setVisible(false);
         }else if(source == view.getJPesanLokasi()){
             new ControllerPesanLokasi();
+            view.setVisible(false);
+            
+        }else if(source == view.getBtnParkir()){
+            new ControllerParkir();
             view.setVisible(false);
         }
     }

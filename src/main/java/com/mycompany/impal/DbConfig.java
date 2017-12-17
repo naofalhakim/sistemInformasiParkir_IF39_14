@@ -62,8 +62,9 @@ public class DbConfig {
 
     public boolean cobaInput(String email, String nama, String ktp, String pass) {
         try {
-            query = "insert into login(email,password) values"
-                    + "('" + email + "', "
+            query = "insert into login(email,priority,password) values"
+                    + "('" + email + "',"
+                    + "'user',"
                     + "'" + pass + "')";
             stat.execute(query);
 
@@ -181,6 +182,23 @@ public class DbConfig {
         try {
             stat.execute(query);
             JOptionPane.showMessageDialog(null, "Pesan Lokasi Sukses");
+        } catch (SQLException ex) {
+            JOptionPane.showMessageDialog(null, ex.getMessage());
+            Logger.getLogger(DbConfig.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+
+    void addTransaksiParkir(String txtNomorPlat, int idLokasi, String idPengendara) {
+        query = "INSERT INTO transaksiparkir (email, id_spot, tanggal_parkir,waktu_masuk,status, nomor_kendaraan) values"
+                    + "('" + idPengendara+ "', "
+                    + "'" + idLokasi + "', "
+                    + "CURRENT_DATE, "
+                    + "CURRENT_TIME, "
+                    + "0, "
+                    + "'" + txtNomorPlat + "')";
+        try {
+            stat.execute(query);
+            JOptionPane.showMessageDialog(null, "Anda Berhasil Cek In Parkir");
         } catch (SQLException ex) {
             JOptionPane.showMessageDialog(null, ex.getMessage());
             Logger.getLogger(DbConfig.class.getName()).log(Level.SEVERE, null, ex);

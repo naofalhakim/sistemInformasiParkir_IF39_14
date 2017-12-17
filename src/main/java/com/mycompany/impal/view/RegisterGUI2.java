@@ -46,6 +46,7 @@ public class RegisterGUI2 extends javax.swing.JFrame {
         txtpass = new javax.swing.JPasswordField();
         txtpass1 = new javax.swing.JPasswordField();
         jLabel6 = new javax.swing.JLabel();
+        btnKembali = new javax.swing.JButton();
 
         jPasswordField1.setText("jPasswordField1");
 
@@ -65,6 +66,8 @@ public class RegisterGUI2 extends javax.swing.JFrame {
 
         jLabel6.setText("Register Data Pengendara");
 
+        btnKembali.setText("Kembali");
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -80,7 +83,10 @@ public class RegisterGUI2 extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 21, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(txtNama, javax.swing.GroupLayout.DEFAULT_SIZE, 270, Short.MAX_VALUE)
-                    .addComponent(btnRegis, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addComponent(btnKembali)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(btnRegis))
                     .addComponent(txtEmail, javax.swing.GroupLayout.DEFAULT_SIZE, 270, Short.MAX_VALUE)
                     .addComponent(txtKTP, javax.swing.GroupLayout.DEFAULT_SIZE, 270, Short.MAX_VALUE)
                     .addComponent(txtpass)
@@ -117,7 +123,9 @@ public class RegisterGUI2 extends javax.swing.JFrame {
                     .addComponent(jLabel5)
                     .addComponent(txtpass1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(btnRegis)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnRegis)
+                    .addComponent(btnKembali))
                 .addGap(33, 33, 33))
         );
 
@@ -148,6 +156,7 @@ public class RegisterGUI2 extends javax.swing.JFrame {
     
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnKembali;
     private javax.swing.JButton btnRegis;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
@@ -166,6 +175,11 @@ public class RegisterGUI2 extends javax.swing.JFrame {
 
     public void setActionListener(ActionListener e){
         btnRegis.addActionListener(e);
+        btnKembali.addActionListener(e);
+    }
+
+    public JButton getBtnKembali() {
+        return btnKembali;
     }
 
     public JButton getBtnRegis() {

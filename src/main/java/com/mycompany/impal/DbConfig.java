@@ -103,15 +103,15 @@ public class DbConfig {
 
     public void inputSpotLokasi(int nomor, char sektor, int lantai, String kategori) {
         try {
-            
-            query = "INSERT INTO spotparkir (nomor, sektor, lantai, kategori, status) values"
-                                    + "('" + nomor + "', "
-                                    + "'" + sektor + "', "
-                                    + "'" + lantai + "', "
-                                    + "'" + kategori + "', "
-                                    + "'0')";
 
-                            stat.execute(query);
+            query = "INSERT INTO spotparkir (nomor, sektor, lantai, kategori, status) values"
+                    + "('" + nomor + "', "
+                    + "'" + sektor + "', "
+                    + "'" + lantai + "', "
+                    + "'" + kategori + "', "
+                    + "'0')";
+
+            stat.execute(query);
             /*
             char[] sector = {'A', 'B'};
             String[] kat = {"mobil", "motor"};
@@ -132,8 +132,8 @@ public class DbConfig {
                     }
                 }
             }
-                */
-            
+             */
+
         } catch (SQLException e) {
             JOptionPane.showConfirmDialog(null, e.getMessage(), "Server Unconnected", JOptionPane.OK_OPTION);
             e.printStackTrace();
@@ -141,13 +141,13 @@ public class DbConfig {
     }
 
     public ArrayList<Lokasi> getAllLocation() {
-            ArrayList<Lokasi> loc = new ArrayList();
+        ArrayList<Lokasi> loc = new ArrayList();
         try {
-            String query = "select * from spotparkir order by kategori";
+            query = "select * from spotparkir order by kategori";
             ResultSet result = stat.executeQuery(query);
             while (result.next()) {
                 loc.add(new Lokasi(result.getInt("id_spot"),
-                        result.getInt("lantai")+result.getString("sektor")+result.getInt("nomor"),
+                        result.getInt("lantai") + result.getString("sektor") + result.getInt("nomor"),
                         result.getString("kategori")
                 ));
             }
@@ -157,6 +157,33 @@ public class DbConfig {
         }
         return loc;
     }
-    
-    
+
+    public int searchLocation(int lantai, int nomor, String sector, String kategori) {
+        query = "select id_spot from spotparkir where lantai='" + lantai + "' && nomor='" + nomor + "' && sektor='" + sector + "' && kategori = '" + kategori + "'";
+        try {
+            ResultSet result = stat.executeQuery(query);
+            while (result.next()) {
+                return result.getInt("id_spot");
+            }
+        } catch (SQLException ex) {
+            Logger.getLogger(DbConfig.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        return 0;
+    }
+
+    void bookLocation(int idLokasi, String tanggal, String idPengendara) {
+        query = "INSERT INTO pesanspot (email, id_spot, tanggal_pesan, tanggal_dipakai) values"
+                    + "('" + idPengendara+ "', "
+                    + "'" + idLokasi + "', "
+                    + "CURRENT_DATE, "
+                    + "'" + tanggal + "')";
+
+        try {
+            stat.execute(query);
+            JOptionPane.showMessageDialog(null, "Pesan Lokasi Sukses");
+        } catch (SQLException ex) {
+            JOptionPane.showMessageDialog(null, ex.getMessage());
+            Logger.getLogger(DbConfig.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
 }

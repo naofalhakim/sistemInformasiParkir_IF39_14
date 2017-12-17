@@ -30,7 +30,8 @@ public class ControllerMenuUtama implements ActionListener{
         if(source == view.getJPantau()){
             
         }else if(source == view.getJPesanLokasi()){
-            
+            new ControllerPesanLokasi();
+            view.setVisible(false);
         }
     }
     

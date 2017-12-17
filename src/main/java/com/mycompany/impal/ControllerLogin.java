@@ -47,6 +47,7 @@ public class ControllerLogin implements ActionListener {
 
                 if (prio.equals("user")) {
                     JOptionPane.showMessageDialog(view, "Login Berhasil");
+                    ApplicationModel.idPengendara = email;
                     new ControllerMenuUtama();
                     view.setVisible(false);
                 } else if (prio.equals("admin")) {

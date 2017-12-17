@@ -17,6 +17,7 @@ public class ApplicationModel {
 
     private DbConfig dbConfig;
     private List listPengendara;
+    static String idPengendara;
 
     public ApplicationModel() {
         dbConfig = new DbConfig();
@@ -51,5 +52,13 @@ public class ApplicationModel {
             
 
         }
+    }
+
+    public int cariLokasi(int lantai, int nomor, String sector, String kategori) {
+        return dbConfig.searchLocation(lantai, nomor, sector, kategori);
+    }
+
+    public void pesanLokasi(int idLokasi, String tanggal, String idPengendara) {
+        dbConfig.bookLocation(idLokasi, tanggal, idPengendara);
     }
 }

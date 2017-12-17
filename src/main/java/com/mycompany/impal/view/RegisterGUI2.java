@@ -5,7 +5,7 @@
  */
 package com.mycompany.impal.view;
 
-import com.mycompany.impal.Register;
+import com.mycompany.impal.ControllerRegister;
 import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JTextField;
@@ -45,6 +45,7 @@ public class RegisterGUI2 extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         txtpass = new javax.swing.JPasswordField();
         txtpass1 = new javax.swing.JPasswordField();
+        jLabel6 = new javax.swing.JLabel();
 
         jPasswordField1.setText("jPasswordField1");
 
@@ -61,6 +62,8 @@ public class RegisterGUI2 extends javax.swing.JFrame {
         jLabel4.setText("Password");
 
         jLabel5.setText("Re-type Password");
+
+        jLabel6.setText("Register Data Pengendara");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -83,11 +86,17 @@ public class RegisterGUI2 extends javax.swing.JFrame {
                     .addComponent(txtpass)
                     .addComponent(txtpass1, javax.swing.GroupLayout.Alignment.TRAILING))
                 .addGap(49, 49, 49))
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(31, 31, 31)
+                .addComponent(jLabel6)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(87, Short.MAX_VALUE)
+                .addContainerGap(45, Short.MAX_VALUE)
+                .addComponent(jLabel6)
+                .addGap(28, 28, 28)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(txtNama, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel1))
@@ -145,6 +154,7 @@ public class RegisterGUI2 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPasswordField jPasswordField1;
     private javax.swing.JTextField txtEmail;
@@ -180,6 +190,14 @@ public class RegisterGUI2 extends javax.swing.JFrame {
 
     public JTextField getTxtpass() {
         return txtpass;
+    }
+
+    public void reset() {
+        txtpass.setText("");
+        txtNama.setText("");
+        txtpass1.setText("");
+        txtKTP.setText("");
+        txtEmail.setText("");
     }
     
     

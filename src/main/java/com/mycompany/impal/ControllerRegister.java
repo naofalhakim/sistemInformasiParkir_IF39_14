@@ -15,12 +15,12 @@ import javax.swing.JOptionPane;
  *
  * @author naofal
  */
-public class Register implements ActionListener {
+public class ControllerRegister implements ActionListener {
 
     private ApplicationModel model;
     private RegisterGUI2 view;
 
-    public Register() {
+    public ControllerRegister() {
         model = new ApplicationModel();
         view = new RegisterGUI2();
         view.setVisible(true);
@@ -42,7 +42,14 @@ public class Register implements ActionListener {
                 if (nama.equals("") || email.equals("") || no_ktp.equals("") || pass.equals("") ) {
                     JOptionPane.showMessageDialog(null, "Semua Data Harus Terisi");
                 } else if (pass.equals(view.getTxtRepass().getText())) {
-                    model.inputPengendara(nama,email,no_ktp,pass);
+                    if(model.inputPengendara(nama,email,no_ktp,pass)){
+                        JOptionPane.showMessageDialog(view, "Register Berhasil");
+                        view.reset();
+                        new ControllerLogin();
+                        view.setVisible(false);
+                    }else{
+                        
+                    }
                 } else {
                     JOptionPane.showMessageDialog(null, "Password tidak sama");
                 }

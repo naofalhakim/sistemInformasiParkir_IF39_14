@@ -12,6 +12,8 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 
 /**
@@ -22,6 +24,7 @@ public class DbConfig {
 
     static Connection conn = null;
     static Statement stat = null;
+    private String query;
 
     public void connection() {
         try {
@@ -55,19 +58,44 @@ public class DbConfig {
 
     }
 
-    public void cobaInput(String email, String nama, String ktp, String pass) {
+    public boolean cobaInput(String email, String nama, String ktp, String pass) {
         try {
-            String query1 = "insert into pengendara(email,nama,no_ktp,password) values"
+           String query = "insert into login(email,password) values"
+                    + "('" + email + "', "
+                    + "'" + pass + "')";
+            stat.execute(query);
+            
+            query = "insert into pengendara(email,nama,no_ktp,password) values"
                     + "('" + email + "', "
                     + "'" + nama + "', "
                     + "'" + ktp + "', "
                     + "'" + pass + "')";
             
-            stat.execute(query1);
-            JOptionPane.showMessageDialog(null, "Register Berhasil");
+            
+            return stat.execute(query);
         } catch (SQLException e) {
-            JOptionPane.showConfirmDialog(null, "Register Gagal", "Server Unconnected", JOptionPane.OK_OPTION);
+            JOptionPane.showConfirmDialog(null, e.getMessage(), "Server Unconnected", JOptionPane.OK_OPTION);
             e.printStackTrace();
         }
+        return false;
+    }
+
+    public boolean cariAkun(String email, String pass) {
+        query = "select * from login where email= '" + email + "' and password='" + pass + "'";
+        String email1 = null, pass1 = null;
+        try {
+            ResultSet rs = stat.executeQuery(query);
+            if (rs.next()) {
+                email1 = rs.getString("email");
+                pass1 = rs.getString("password");
+            }
+
+        } catch (SQLException ex) {
+            JOptionPane.showMessageDialog(null, ex.getMessage());
+        }
+        if (!email1.equals("") && !pass1.equals("")) {
+            return true;
+        }
+        return false;
     }
 }

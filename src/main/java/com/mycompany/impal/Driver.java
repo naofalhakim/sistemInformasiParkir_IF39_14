@@ -11,6 +11,6 @@ package com.mycompany.impal;
  */
 public class Driver {
     public static void main(String[] args) {
-        new Register();
+        new ControllerLogin();
     }
 }

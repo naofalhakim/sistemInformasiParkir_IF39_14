@@ -5,6 +5,10 @@
  */
 package com.mycompany.impal.view;
 
+import com.mycompany.impal.ControllerMenuUtama;
+import java.awt.event.ActionListener;
+import javax.swing.JButton;
+
 /**
  *
  * @author FERRY
@@ -132,4 +136,20 @@ public class MenuUtama extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
+
+    
+    
+    public void setActionListener(ActionListener e) {
+        JPantau.addActionListener(e);
+        JPesanLokasi.addActionListener(e);
+    }
+
+    public JButton getJPantau() {
+        return JPantau;
+    }
+
+    public JButton getJPesanLokasi() {
+        return JPesanLokasi;
+    }
+    
 }

@@ -24,6 +24,7 @@ public class ControllerLogin implements ActionListener {
         view = new LoginGUI();
         view.setVisible(true);
         view.setActionListener(this);
+        
     }
 
     @Override
@@ -41,12 +42,21 @@ public class ControllerLogin implements ActionListener {
 
             if (email.equals("") || pass.equals("")) {
                 JOptionPane.showMessageDialog(view, "email atau password kosong");
-            } else if (model.cekLogin(email, pass)) {
-                JOptionPane.showMessageDialog(view, "Login Berhasil");
-                new ControllerMenuUtama();
-                view.setVisible(false);
             } else {
-                JOptionPane.showMessageDialog(view, "Email Atau Password Salah");
+                String prio = model.cekLogin(email, pass);
+
+                if (prio.equals("user")) {
+                    JOptionPane.showMessageDialog(view, "Login Berhasil");
+                    new ControllerMenuUtama();
+                    view.setVisible(false);
+                } else if (prio.equals("admin")) {
+                    JOptionPane.showMessageDialog(view, "Login Berhasil");
+                    new ControllerAdmin();
+                    view.setVisible(false);
+                } else {
+                    JOptionPane.showMessageDialog(view, "Email Atau Password Salah");
+                }
+
             }
         }
     }

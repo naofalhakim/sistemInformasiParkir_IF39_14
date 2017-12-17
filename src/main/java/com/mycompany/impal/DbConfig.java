@@ -5,6 +5,7 @@
  */
 package com.mycompany.impal;
 
+import com.mycompany.impal.model.Lokasi;
 import static java.rmi.server.LogStream.log;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -12,6 +13,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JOptionPane;
@@ -60,18 +62,17 @@ public class DbConfig {
 
     public boolean cobaInput(String email, String nama, String ktp, String pass) {
         try {
-           String query = "insert into login(email,password) values"
+            query = "insert into login(email,password) values"
                     + "('" + email + "', "
                     + "'" + pass + "')";
             stat.execute(query);
-            
+
             query = "insert into pengendara(email,nama,no_ktp,password) values"
                     + "('" + email + "', "
                     + "'" + nama + "', "
                     + "'" + ktp + "', "
                     + "'" + pass + "')";
-            
-            
+
             return stat.execute(query);
         } catch (SQLException e) {
             JOptionPane.showConfirmDialog(null, e.getMessage(), "Server Unconnected", JOptionPane.OK_OPTION);
@@ -80,22 +81,82 @@ public class DbConfig {
         return false;
     }
 
-    public boolean cariAkun(String email, String pass) {
+    public String cariAkun(String email, String pass) {
         query = "select * from login where email= '" + email + "' and password='" + pass + "'";
-        String email1 = null, pass1 = null;
+        String email1 = null, pass1 = null, prio = null;
         try {
             ResultSet rs = stat.executeQuery(query);
             if (rs.next()) {
                 email1 = rs.getString("email");
                 pass1 = rs.getString("password");
+                prio = rs.getString("priority");
             }
 
         } catch (SQLException ex) {
             JOptionPane.showMessageDialog(null, ex.getMessage());
         }
         if (!email1.equals("") && !pass1.equals("")) {
-            return true;
+            return prio;
         }
-        return false;
+        return null;
     }
+
+    public void inputSpotLokasi(int nomor, char sektor, int lantai, String kategori) {
+        try {
+            
+            query = "INSERT INTO spotparkir (nomor, sektor, lantai, kategori, status) values"
+                                    + "('" + nomor + "', "
+                                    + "'" + sektor + "', "
+                                    + "'" + lantai + "', "
+                                    + "'" + kategori + "', "
+                                    + "'0')";
+
+                            stat.execute(query);
+            /*
+            char[] sector = {'A', 'B'};
+            String[] kat = {"mobil", "motor"};
+
+            for (int k = 1; k <= 2; k++) {
+                for (int h = 0; h < kat.length; h++) {
+                    for (int j = 0; j < sector.length; j++) {
+                        for (int i = 1; i <= 3; i++) {
+                            query = "INSERT INTO spotparkir (nomor, sektor, lantai, kategori, status) values"
+                                    + "('" + i + "', "
+                                    + "'" + sector[j] + "', "
+                                    + "'" + k + "', "
+                                    + "'" + kat[h] + "', "
+                                    + "'0')";
+
+                            stat.execute(query);
+                        }
+                    }
+                }
+            }
+                */
+            
+        } catch (SQLException e) {
+            JOptionPane.showConfirmDialog(null, e.getMessage(), "Server Unconnected", JOptionPane.OK_OPTION);
+            e.printStackTrace();
+        }
+    }
+
+    public ArrayList<Lokasi> getAllLocation() {
+            ArrayList<Lokasi> loc = new ArrayList();
+        try {
+            String query = "select * from spotparkir order by kategori";
+            ResultSet result = stat.executeQuery(query);
+            while (result.next()) {
+                loc.add(new Lokasi(result.getInt("id_spot"),
+                        result.getInt("lantai")+result.getString("sektor")+result.getInt("nomor"),
+                        result.getString("kategori")
+                ));
+            }
+            return loc;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return loc;
+    }
+    
+    
 }

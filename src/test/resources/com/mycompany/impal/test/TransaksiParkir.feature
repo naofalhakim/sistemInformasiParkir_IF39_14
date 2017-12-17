@@ -4,11 +4,7 @@ Fitur: Perhitungan Lama Parkir User
         Mengetahui biaya dan lama parkir user
 
 	@Normal
-<<<<<<< HEAD
-        Skenario: Mengecek User Pesan Spot
-=======
         Skenario: Mengecek User Pesan Spot 
->>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288
 		Dengan pengecekan data transaksi pemesanan spot parkir dan data user parkir
 		Ketika data hasil pengecekan sama( benar ) 
 		Maka user parkir bisa parkir sesuai dengan tempet yang dipesan
@@ -28,8 +24,4 @@ Fitur: Perhitungan Lama Parkir User
 		Ketika data durasi user lebih dari 1 detik ( biaya parkir awal )
 		Maka perhitungan biaya parkir = 2000
 		Ketika data durasi parkir user lebih dari 1 jam
-<<<<<<< HEAD
 		Maka biaya parkir menjadi biaya parkir awal + n( biaya parkir tiap jam ) x 1000	
-=======
-		Maka biaya parkir menjadi biaya parkir awal + n( biaya parkir tiap jam ) x 1000	
->>>>>>> 690e67925e7b6ceaee7cf0b5954abced99646288

@@ -11,24 +11,33 @@ package com.mycompany.impal.model;
  */
 public class Lokasi {
 
-    private String idLokasi;
+    private int idLokasi;
     private String namaLokasi;
     private boolean statusLokasi;
+    private String kategori;
 
-    public Lokasi(String idLokasi, String namaLokasi, boolean statusLokasi) {
+    public Lokasi(int idLokasi, String namaLokasi, String kategori) {
         this.idLokasi = idLokasi;
         this.namaLokasi = namaLokasi;
-        this.statusLokasi = statusLokasi;
+        this.kategori = kategori;
     }
 
     public Lokasi() {
     }
 
-    public String getIdLokasi() {
+    public String getKategori() {
+        return kategori;
+    }
+
+    public void setKategori(String kategori) {
+        this.kategori = kategori;
+    }
+
+    public int getIdLokasi() {
         return idLokasi;
     }
 
-    public void setIdLokasi(String idLokasi) {
+    public void setIdLokasi(int idLokasi) {
         this.idLokasi = idLokasi;
     }
 

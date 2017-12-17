@@ -12,8 +12,6 @@ import cucumber.api.java.id.Ketika;
 
 import junit.framework.Assert;
 
-
-
 /**
  *
  * @author naofal
@@ -54,54 +52,31 @@ public class DemoContext {
         Assert.assertEquals(arg1, result);
     }
 
-//    @Dengan("^Data user baru dimasukan dan tidak duplikat dengan data yang sudah ada di sistem$")
-//public void data_user_baru_dimasukan_dan_tidak_duplikat_dengan_data_yang_sudah_ada_di_sistem() throws Throwable {
-//    // Write code here that turns the phrase above into concrete actions
-//    
-//}
+    @Dengan("^Data user yang sudah ada di dalam sistem dan data user tidak sesuai$")
+    public void data_user_yang_sudah_ada_di_dalam_sistem_dan_data_user_tidak_sesuai() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
 
-//@Ketika("^Memasukan data user baru$")
-//public void memasukan_data_user_baru() throws Throwable {
-//    // Write code here that turns the phrase above into concrete actions
-//    
-//}
-//
-//@Ketika("^Data baru user sudah benar$")
-//public void data_baru_user_sudah_benar() throws Throwable {
-//    // Write code here that turns the phrase above into concrete actions
-//    
-//}
-//
-//@Maka("^respon \"([^\"]*)\"$")
-//public void respon(String arg1) throws Throwable {
-//    // Write code here that turns the phrase above into concrete actions
-//    
-//}
+    }
 
-@Dengan("^Data user yang sudah ada di dalam sistem dan data user tidak sesuai$")
-public void data_user_yang_sudah_ada_di_dalam_sistem_dan_data_user_tidak_sesuai() throws Throwable {
-    // Write code here that turns the phrase above into concrete actions
-    
-}
+    @Ketika("^memasukkan data edit user yang baru$")
+    public void memasukkan_data_edit_user_yang_baru() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
 
-@Ketika("^memasukkan data edit user yang baru$")
-public void memasukkan_data_edit_user_yang_baru() throws Throwable {
-    // Write code here that turns the phrase above into concrete actions
-    
-}
+    }
 
-@Ketika("^data edit user yang baru sudah benar$")
-public void data_edit_user_yang_baru_sudah_benar() throws Throwable {
-    // Write code here that turns the phrase above into concrete actions
-    
-}
+    @Ketika("^data edit user yang baru sudah benar$")
+    public void data_edit_user_yang_baru_sudah_benar() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
 
-@Dengan("^pengecekan data transaksi parkir dan data inputan berupa id user$")
-public void pengecekan_data_transaksi_parkir_dan_data_inputan_berupa_id_user() throws Throwable {
-    // Write code here that turns the phrase above into concrete actions
-    
-}
+    }
 
+    @Dengan("^pengecekan data transaksi parkir dan data inputan berupa id user$")
+    public void pengecekan_data_transaksi_parkir_dan_data_inputan_berupa_id_user() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+
+    }
+
+    /*
 @Ketika("^data hasil pengecekan sama\\( benar \\)$")
 public void data_hasil_pengecekan_sama_benar() throws Throwable {
     // Write code here that turns the phrase above into concrete actions
@@ -324,5 +299,37 @@ public void data_baru_user_sudah_benar_tetap_terdapat_duplikasi() throws Throwab
     // Write code here that turns the phrase above into concrete actions
     
 }
+     */
+
+    @Maka("^responUpdate \"([^\"]*)\"$")
+    public void responupdate(String arg1) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        String result = "update berhasil";
+        Assert.assertEquals(arg1, result);
+    }
+
+    @Maka("^user parkir bisa melakukan pemantauan kendaraan$")
+    public void user_parkir_bisa_melakukan_pemantauan_kendaraan() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
+
+    @Maka("^menampilkan \"([^\"]*)\"$")
+    public void menampilkan(String arg1) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
+
+    @Maka("^user tidak bisa melakukan pemantauan kendaraan$")
+    public void user_tidak_bisa_melakukan_pemantauan_kendaraan() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
+
+    @Maka("^akan tampil notofikasi \"([^\"]*)\"$")
+    public void akan_tampil_notofikasi(String arg1) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
 
 }

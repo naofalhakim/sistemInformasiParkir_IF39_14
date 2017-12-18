@@ -7,7 +7,6 @@ package com.mycompany.impal;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import com.mycompany.impal.model.Pengendara;
 import com.mycompany.impal.view.RegisterGUI2;
 import javax.swing.JOptionPane;
 
@@ -19,10 +18,16 @@ public class ControllerRegister implements ActionListener {
 
     private ApplicationModel model;
     private RegisterGUI2 view;
+    private ControllerLogin cLogin;
 
     public ControllerRegister() {
         model = new ApplicationModel();
         view = new RegisterGUI2();
+        cLogin =new ControllerLogin();
+
+    }
+
+    public void loadViewRegsiter() {
         view.setVisible(true);
         view.setActionListener(this);
     }
@@ -30,34 +35,35 @@ public class ControllerRegister implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         Object source = e.getSource();
+
         
-        String nama , email, no_ktp, pass;
-        nama =view.getTxtNama().getText();
-        email=view.getTxtEmail().getText();
-        no_ktp=view.getTxtKTP().getText();
-        pass=view.getTxtpass().getText();
-        
+        String nama = view.getTxtNama().getText();
+        String email = view.getTxtEmail().getText();
+        String no_ktp = view.getTxtKTP().getText();
+        String pass = view.getTxtpass().getText();
+
         try {
             if (source == view.getBtnRegis()) {
-                if (nama.equals("") || email.equals("") || no_ktp.equals("") || pass.equals("") ) {
+                if (nama ==null || email==null || no_ktp==null || pass==null) {
                     JOptionPane.showMessageDialog(null, "Semua Data Harus Terisi");
                 } else if (pass.equals(view.getTxtRepass().getText())) {
-                    if(model.inputPengendara(nama,email,no_ktp,pass)){
+                    if (model.inputPengendara(nama, email, no_ktp, pass)) {
                         JOptionPane.showMessageDialog(view, "Register Berhasil");
                         view.reset();
-                        new ControllerLogin();
+                        cLogin.loadView();
                         view.setVisible(false);
-                    }else{
-                        
+                    } else {
+
                     }
                 } else {
                     JOptionPane.showMessageDialog(null, "Password tidak sama");
                 }
-            }else if(source == view.getBtnKembali()){
-                new ControllerLogin();
+            } else if (source == view.getBtnKembali()) {
+                cLogin.loadView();
                 view.setVisible(false);
             }
         } catch (Exception ae) {
+            JOptionPane.showMessageDialog(null, ae.getMessage());
         }
     }
 }

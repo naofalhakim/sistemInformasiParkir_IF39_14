@@ -11,9 +11,5 @@ package com.mycompany.impal;
  */
 public class transaksiParkir {
 
-    public static void main(String[] args) {
-        System.out.println("test demo");
-
-    }
-
+    
 }

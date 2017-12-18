@@ -18,13 +18,22 @@ public class ControllerLogin implements ActionListener {
 
     private ApplicationModel model;
     private LoginGUI view;
+    private ControllerRegister cRegister;
+    private ControllerAdmin cAdmin;
+    private ControllerMenuUtama cMenuUtama;
 
     public ControllerLogin() {
         model = new ApplicationModel();
         view = new LoginGUI();
+        cRegister = new ControllerRegister();
+        cAdmin = new ControllerAdmin();
+        cMenuUtama = new ControllerMenuUtama();
+
+    }
+
+    public void loadView() {
         view.setVisible(true);
         view.setActionListener(this);
-        
     }
 
     @Override
@@ -36,23 +45,23 @@ public class ControllerLogin implements ActionListener {
         pass = view.getJpassword().getText();
 
         if (source == view.getBtnDaftar()) {
-            new ControllerRegister();
+            cRegister.loadViewRegsiter();
             view.setVisible(false);
         } else if (source == view.getBtnLogin()) {
 
-            if (email.equals("") || pass.equals("")) {
+            if (email == null || pass == null) {
                 JOptionPane.showMessageDialog(view, "email atau password kosong");
             } else {
                 String prio = model.cekLogin(email, pass);
 
-                if (prio.equals("user")) {
+                if ("user".equals(prio)) {
                     JOptionPane.showMessageDialog(view, "Login Berhasil");
-                    ApplicationModel.idPengendara = email;
-                    new ControllerMenuUtama();
+                    ApplicationModel.setIdPengendara(email);
+                    cMenuUtama.loadViewMenuUtama();
                     view.setVisible(false);
-                } else if (prio.equals("admin")) {
+                } else if ("admin".equals(prio)) {
                     JOptionPane.showMessageDialog(view, "Login Berhasil");
-                    new ControllerAdmin();
+                    cAdmin.loadViewAdmin();
                     view.setVisible(false);
                 } else {
                     JOptionPane.showMessageDialog(view, "Email Atau Password Salah");

@@ -18,10 +18,15 @@ public class ControllerPesanLokasi implements ActionListener {
 
     private ApplicationModel model;
     private PesanLokasi view;
+    private ControllerMenuUtama cMenu;
 
     public ControllerPesanLokasi() {
         model = new ApplicationModel();
         view = new PesanLokasi();
+        cMenu = new ControllerMenuUtama();
+    }
+
+    public void loadViewPesan() {
         view.setActionListener(this);
         view.setVisible(true);
     }
@@ -30,7 +35,7 @@ public class ControllerPesanLokasi implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         Object source = e.getSource();
         if (source == view.getjButton1()) {
-            
+
             int lantai = Integer.parseInt(view.getCmbLantai().getItemAt(view.getCmbLantai().getSelectedIndex()));
             int nomor = Integer.parseInt(view.getCmbSektor1().getItemAt(view.getCmbSektor1().getSelectedIndex()));
             String sector = view.getCmbSektor().getItemAt(view.getCmbSektor().getSelectedIndex());
@@ -47,12 +52,12 @@ public class ControllerPesanLokasi implements ActionListener {
                     + "-" + view.getCmbBulan().getSelectedItem().toString() + "-"
                     + view.getCmbTahun().getSelectedItem().toString();
             if (idLokasi != 0) {
-                model.pesanLokasi(idLokasi, tanggal, ApplicationModel.idPengendara);
+                model.pesanLokasi(idLokasi, tanggal, ApplicationModel.getIdPengendara());
             } else {
                 JOptionPane.showMessageDialog(view, "Lokasi Telah di Pesan");
             }
-        }else if(source == view.getBtnKembali()){
-            new ControllerMenuUtama();
+        } else if (source == view.getBtnKembali()) {
+            cMenu.loadViewMenuUtama();
             view.setVisible(false);
         }
     }

@@ -3,15 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.impal;
+package com.mycompany.testfile;
 
 /**
  *
  * @author naofal
  */
-public class Driver {
-    public static void main(String[] args) {
-        ControllerLogin controllerLogin = new ControllerLogin();
-        controllerLogin.loadView();
-    }
+public class RegisterForTest {
+    
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="63" failures="0" name="com.mycompany.impal.test.PesanSpotParkirTest" time="0.534" errors="0" skipped="0">
+<testsuite tests="63" failures="0" name="com.mycompany.impal.test.PesanSpotParkirTest" time="0.313" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\bin"/>
@@ -78,12 +78,12 @@
   <testcase classname="Skenario: Validasi Id parkir user salah" name="Dengan pengecekan data transaksi parkir dan data inputan berupa id user tidak ditemukan" time="0"/>
   <testcase classname="Ketika data hasil pengecekan tidak ditemukan id transaksi user( salah )(Skenario: Validasi Id parkir user salah)" name="Ketika data hasil pengecekan tidak ditemukan id transaksi user" time="0"/>
   <testcase classname="Skenario: Validasi Id parkir user salah" name="Maka respone pantau gagal \&quot;tidak bisa melakukan pemantauan kendaraan\u002C id yang di inputkan salah\&quot;" time="0"/>
-  <testcase classname="Skenario: Validasi Id parkir user salah" name="Skenario: Validasi Id parkir user salah" time="0.001"/>
+  <testcase classname="Skenario: Validasi Id parkir user salah" name="Skenario: Validasi Id parkir user salah" time="0"/>
   <testcase classname="Skenario: Memasukan Data Pemesanan Spot Parkir Berhasil" name="Dengan Data user\u002C dan Data Pemesanana baru dimasukan dan tidak duplikat dengan data yang sudah ada di sistem" time="0"/>
   <testcase classname="Skenario: Memasukan Data Pemesanan Spot Parkir Berhasil" name="Ketika Memasukan data pemesanan" time="0"/>
   <testcase classname="Skenario: Memasukan Data Pemesanan Spot Parkir Berhasil" name="Dan Data baru pemesanan sudah benar" time="0"/>
-  <testcase classname="Skenario: Memasukan Data Pemesanan Spot Parkir Berhasil" name="Maka respon pesan berhasil \&quot;pemesanan spot parkir berhasil\&quot;" time="0.002"/>
-  <testcase classname="Skenario: Memasukan Data Pemesanan Spot Parkir Berhasil" name="Skenario: Memasukan Data Pemesanan Spot Parkir Berhasil" time="0.002"/>
+  <testcase classname="Skenario: Memasukan Data Pemesanan Spot Parkir Berhasil" name="Maka respon pesan berhasil \&quot;pemesanan spot parkir berhasil\&quot;" time="0"/>
+  <testcase classname="Skenario: Memasukan Data Pemesanan Spot Parkir Berhasil" name="Skenario: Memasukan Data Pemesanan Spot Parkir Berhasil" time="0"/>
   <testcase classname="Skenario: Memasukan Data Pemesanan Spot Parkir Gagal" name="Dengan Data user\u002C dan Data Pemesanana baru dimasukan dan duplikat dengan data yang sudah ada di sistem" time="0"/>
   <testcase classname="Skenario: Memasukan Data Pemesanan Spot Parkir Gagal" name="Ketika Memasukan data pemesanan" time="0"/>
   <testcase classname="Skenario: Memasukan Data Pemesanan Spot Parkir Gagal" name="Dan Data baru pemesanan duplikat" time="0"/>
@@ -123,5 +123,5 @@
   <testcase classname="Skenario: Perhitungan biaya parkir" name="Maka perhitungan biaya parkir = 2000" time="0"/>
   <testcase classname="Skenario: Perhitungan biaya parkir" name="Ketika data durasi parkir user lebih dari 1 jam" time="0"/>
   <testcase classname="Maka biaya parkir menjadi biaya parkir awal + n( biaya parkir tiap jam ) x 1000(Skenario: Perhitungan biaya parkir)" name="Maka biaya parkir menjadi biaya parkir awal + n" time="0"/>
-  <testcase classname="Skenario: Perhitungan biaya parkir" name="Skenario: Perhitungan biaya parkir" time="0.001"/>
+  <testcase classname="Skenario: Perhitungan biaya parkir" name="Skenario: Perhitungan biaya parkir" time="0"/>
 </testsuite>

@@ -17,7 +17,8 @@ public class ControllerAdmin implements ActionListener {
 
     private ApplicationModel model;
     private Admin view;
-
+    private ControllerLogin cLogin;
+    
     public ControllerAdmin() {
         model = new ApplicationModel();
         view = new Admin();
@@ -31,7 +32,9 @@ public class ControllerAdmin implements ActionListener {
         Object sourec = e.getSource();
         if (view.getBtnLogOut() == sourec) {
             
-            ControllerLogin cLogin = new ControllerLogin();
+            cLogin = new ControllerLogin();
+            cLogin.loadView();
+            
             view.setVisible(false);
         } else if (view.getBtndeletekamera() == sourec) {
                ///belumm ada isi

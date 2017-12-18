@@ -22,6 +22,9 @@ public class ControllerLogin implements ActionListener {
     public ControllerLogin() {
         model = new ApplicationModel();
         view = new LoginGUI();
+    }
+    
+    public void loadView(){
         view.setVisible(true);
         view.setActionListener(this);
     }

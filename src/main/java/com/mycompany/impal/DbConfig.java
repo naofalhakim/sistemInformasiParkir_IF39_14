@@ -24,8 +24,8 @@ import javax.swing.JOptionPane;
  */
 public class DbConfig {
 
-    static Connection conn = null;
-    static Statement stat = null;
+    private Connection conn = null;
+    private Statement stat = null;
     private String query;
     private ResultSet rs;
 
@@ -40,12 +40,6 @@ public class DbConfig {
         try {
             conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/impalparkir", "root", "");
             stat = conn.createStatement();
-            if (conn == null) {
-                log("Failed to make connection!");
-            } else {
-                log("Connection Successful! Enjoy. Now it's time to push data");
-                System.out.println("Connection Successful! Enjoy. Now it's time to push data");
-            }
         } catch (SQLException e) {
             log("MySQL Connection Failed!");
             return;
@@ -124,7 +118,7 @@ public class DbConfig {
             }
             return loc;
         } catch (Exception e) {
-            e.printStackTrace();
+            log(e.getMessage());
         }
         return loc;
     }
@@ -193,7 +187,7 @@ public class DbConfig {
             }
             return transaksi;
         } catch (Exception e) {
-            e.printStackTrace();
+            log(e.getMessage());
 
         }
         return transaksi;

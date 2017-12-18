@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="63" failures="0" name="com.mycompany.impal.test.TransaksiParkirTest" time="0.389" errors="0" skipped="0">
+<testsuite tests="63" failures="0" name="com.mycompany.impal.test.TransaksiParkirTest" time="0.226" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\bin"/>
@@ -65,25 +65,25 @@
   <testcase classname="Skenario: Memasukan Data User" name="Ketika Memasukan data user baru" time="0"/>
   <testcase classname="Skenario: Memasukan Data User" name="Dan Data baru user sudah benar" time="0"/>
   <testcase classname="Skenario: Memasukan Data User" name="Maka respon \&quot;register berhasil\&quot;" time="0"/>
-  <testcase classname="Skenario: Memasukan Data User" name="Skenario: Memasukan Data User" time="0.001"/>
+  <testcase classname="Skenario: Memasukan Data User" name="Skenario: Memasukan Data User" time="0"/>
   <testcase classname="Skenario: Mengedit Data User" name="Dengan Data user yang sudah ada di dalam sistem dan data user tidak sesuai" time="0"/>
   <testcase classname="Skenario: Mengedit Data User" name="Ketika memasukkan data edit user yang baru" time="0"/>
   <testcase classname="Skenario: Mengedit Data User" name="Dan data edit user yang baru sudah benar" time="0"/>
   <testcase classname="Skenario: Mengedit Data User" name="Maka responUpdate \&quot;update berhasil\&quot;" time="0"/>
-  <testcase classname="Skenario: Mengedit Data User" name="Skenario: Mengedit Data User" time="0.001"/>
+  <testcase classname="Skenario: Mengedit Data User" name="Skenario: Mengedit Data User" time="0"/>
   <testcase classname="Skenario: Validasi Id parkir user benar" name="Dengan pengecekan data transaksi parkir dan data inputan berupa id user ditemukan" time="0"/>
   <testcase classname="Ketika data hasil pengecekan sama( benar )(Skenario: Validasi Id parkir user benar)" name="Ketika data hasil pengecekan sama" time="0"/>
   <testcase classname="Skenario: Validasi Id parkir user benar" name="Maka respone pantau berhasil \&quot;munculkan visualisasi dari pemantauan kendaraan\&quot;" time="0"/>
   <testcase classname="Skenario: Validasi Id parkir user benar" name="Skenario: Validasi Id parkir user benar" time="0"/>
   <testcase classname="Skenario: Validasi Id parkir user salah" name="Dengan pengecekan data transaksi parkir dan data inputan berupa id user tidak ditemukan" time="0"/>
-  <testcase classname="Ketika data hasil pengecekan tidak ditemukan id transaksi user( salah )(Skenario: Validasi Id parkir user salah)" name="Ketika data hasil pengecekan tidak ditemukan id transaksi user" time="0.007"/>
+  <testcase classname="Ketika data hasil pengecekan tidak ditemukan id transaksi user( salah )(Skenario: Validasi Id parkir user salah)" name="Ketika data hasil pengecekan tidak ditemukan id transaksi user" time="0"/>
   <testcase classname="Skenario: Validasi Id parkir user salah" name="Maka respone pantau gagal \&quot;tidak bisa melakukan pemantauan kendaraan\u002C id yang di inputkan salah\&quot;" time="0"/>
-  <testcase classname="Skenario: Validasi Id parkir user salah" name="Skenario: Validasi Id parkir user salah" time="0.001"/>
+  <testcase classname="Skenario: Validasi Id parkir user salah" name="Skenario: Validasi Id parkir user salah" time="0"/>
   <testcase classname="Skenario: Memasukan Data Pemesanan Spot Parkir Berhasil" name="Dengan Data user\u002C dan Data Pemesanana baru dimasukan dan tidak duplikat dengan data yang sudah ada di sistem" time="0"/>
   <testcase classname="Skenario: Memasukan Data Pemesanan Spot Parkir Berhasil" name="Ketika Memasukan data pemesanan" time="0"/>
   <testcase classname="Skenario: Memasukan Data Pemesanan Spot Parkir Berhasil" name="Dan Data baru pemesanan sudah benar" time="0"/>
   <testcase classname="Skenario: Memasukan Data Pemesanan Spot Parkir Berhasil" name="Maka respon pesan berhasil \&quot;pemesanan spot parkir berhasil\&quot;" time="0"/>
-  <testcase classname="Skenario: Memasukan Data Pemesanan Spot Parkir Berhasil" name="Skenario: Memasukan Data Pemesanan Spot Parkir Berhasil" time="0.001"/>
+  <testcase classname="Skenario: Memasukan Data Pemesanan Spot Parkir Berhasil" name="Skenario: Memasukan Data Pemesanan Spot Parkir Berhasil" time="0"/>
   <testcase classname="Skenario: Memasukan Data Pemesanan Spot Parkir Gagal" name="Dengan Data user\u002C dan Data Pemesanana baru dimasukan dan duplikat dengan data yang sudah ada di sistem" time="0"/>
   <testcase classname="Skenario: Memasukan Data Pemesanan Spot Parkir Gagal" name="Ketika Memasukan data pemesanan" time="0"/>
   <testcase classname="Skenario: Memasukan Data Pemesanan Spot Parkir Gagal" name="Dan Data baru pemesanan duplikat" time="0"/>

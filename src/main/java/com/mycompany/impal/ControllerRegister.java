@@ -18,6 +18,7 @@ public class ControllerRegister implements ActionListener {
 
     private ApplicationModel model;
     private RegisterGUI2 view;
+    private ControllerLogin cLogin = new ControllerLogin();;
 
     public ControllerRegister() {
         model = new ApplicationModel();
@@ -43,7 +44,7 @@ public class ControllerRegister implements ActionListener {
                     if (model.inputPengendara(nama, email, no_ktp, pass)) {
                         JOptionPane.showMessageDialog(view, "Register Berhasil");
                         view.reset();
-                        ControllerLogin cLogin = new ControllerLogin();
+                        cLogin.loadView();
                         view.setVisible(false);
                     } else {
 
@@ -52,7 +53,7 @@ public class ControllerRegister implements ActionListener {
                     JOptionPane.showMessageDialog(null, "Password tidak sama");
                 }
             } else if (source == view.getBtnKembali()) {
-                ControllerLogin cLogin = new ControllerLogin();
+                cLogin.loadView();
                 view.setVisible(false);
             }
         } catch (Exception ae) {

@@ -1,5 +1,5 @@
 projectKey=com.mycompany:Impal
 serverUrl=http://localhost:9000
 dashboardUrl=http://localhost:9000/dashboard/index/com.mycompany:Impal
-ceTaskId=AWBnvlmCBJL1DyOXOJ9Q
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AWBnvlmCBJL1DyOXOJ9Q
+ceTaskId=AWBn4KPjBJL1DyOXOJ9U
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWBn4KPjBJL1DyOXOJ9U

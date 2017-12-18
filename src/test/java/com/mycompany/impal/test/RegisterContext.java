@@ -30,9 +30,9 @@ public class RegisterContext {
     public void memasukan_data_user_baru_ke_dalam_sistem() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         boolean expected = true;
-//        ApplicationModel apl = new ApplicationModel();
-//        boolean result = apl.inputPengendara("paijo", "paijo@gmail.com", "1234455", "123");
-        boolean result = true;
+        ApplicationModel apl = new ApplicationModel();
+        boolean result = apl.inputPengendara("paijo1", "paiijo@gmail.com", "1234455", "123");
+        
         Assert.assertEquals(expected, result);
     }
 
@@ -48,8 +48,8 @@ public class RegisterContext {
         // Write code here that turns the phrase above into concrete actions
         boolean expected = false;
         boolean result =false;
-//        ApplicationModel apl = new ApplicationModel();
-//        boolean result = apl.inputPengendara("lol", "lol", "1239085", "123");
+        ApplicationModel apl = new ApplicationModel();
+        result = apl.inputPengendara("lol", "lol", "1239085", "123");
         Assert.assertEquals(expected, result);
 
     }
@@ -59,8 +59,8 @@ public class RegisterContext {
         // Write code here that turns the phrase above into concrete actions
         boolean expected = false;
         boolean result = false;
-//        ApplicationModel apl = new ApplicationModel();
-//        boolean result = apl.inputPengendara("lol", "lol", "1239085", "123");
+        ApplicationModel apl = new ApplicationModel();
+        result = apl.inputPengendara("lol", "lol", "1239085", "123");
         Assert.assertEquals(expected, result);
     }
 

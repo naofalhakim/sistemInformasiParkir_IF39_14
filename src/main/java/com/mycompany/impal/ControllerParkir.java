@@ -17,17 +17,12 @@ import javax.swing.JOptionPane;
 public class ControllerParkir implements ActionListener {
 
     private ApplicationModel model;
-    private MenuParkir view;
-    private ControllerMenuUtama cMenu;
+    private MenuParkir view;    
 
     public ControllerParkir() {
         model = new ApplicationModel();
         view = new MenuParkir();
         model.setTableRekap(view.getTblParkir(), ApplicationModel.getIdPengendara());
-        cMenu = new ControllerMenuUtama();
-    }
-
-    public void loadViewParkir() {
         view.setActionListener(this);
         view.setVisible(true);
     }
@@ -36,7 +31,7 @@ public class ControllerParkir implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         Object source = e.getSource();
         if (source == view.getBtnKembali()) {
-            cMenu.loadViewMenuUtama();
+            ControllerMenuUtama menuUtama = new ControllerMenuUtama();
             view.setVisible(false);
 
         } else if (source == view.getBtnParkir()) {

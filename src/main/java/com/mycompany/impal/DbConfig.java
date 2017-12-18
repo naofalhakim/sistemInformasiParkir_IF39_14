@@ -24,8 +24,8 @@ import javax.swing.JOptionPane;
  */
 public class DbConfig {
 
-    private Connection conn = null;
-    private Statement stat = null;
+    static Connection conn = null;
+    static Statement stat = null;
     private String query;
     private ResultSet rs;
 
@@ -37,7 +37,6 @@ public class DbConfig {
             log("Sorry, couldn't found JDBC driver. Make sure you have added JDBC Maven Dependency Correctly");
             return;
         }
-
         try {
             conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/impalparkir", "root", "");
             stat = conn.createStatement();
@@ -45,6 +44,7 @@ public class DbConfig {
                 log("Failed to make connection!");
             } else {
                 log("Connection Successful! Enjoy. Now it's time to push data");
+                System.out.println("Connection Successful! Enjoy. Now it's time to push data");
             }
         } catch (SQLException e) {
             log("MySQL Connection Failed!");
@@ -124,7 +124,7 @@ public class DbConfig {
             }
             return loc;
         } catch (Exception e) {
-            log("gagal load data lokasi");
+            e.printStackTrace();
         }
         return loc;
     }
@@ -193,7 +193,7 @@ public class DbConfig {
             }
             return transaksi;
         } catch (Exception e) {
-            log(e.getMessage());
+            e.printStackTrace();
 
         }
         return transaksi;

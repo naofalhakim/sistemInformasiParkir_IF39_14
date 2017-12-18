@@ -18,20 +18,10 @@ public class ControllerLogin implements ActionListener {
 
     private ApplicationModel model;
     private LoginGUI view;
-    private ControllerRegister cRegister;
-    private ControllerAdmin cAdmin;
-    private ControllerMenuUtama cMenuUtama;
 
     public ControllerLogin() {
         model = new ApplicationModel();
         view = new LoginGUI();
-        cRegister = new ControllerRegister();
-        cAdmin = new ControllerAdmin();
-        cMenuUtama = new ControllerMenuUtama();
-
-    }
-
-    public void loadView() {
         view.setVisible(true);
         view.setActionListener(this);
     }
@@ -45,7 +35,7 @@ public class ControllerLogin implements ActionListener {
         pass = view.getJpassword().getText();
 
         if (source == view.getBtnDaftar()) {
-            cRegister.loadViewRegsiter();
+            ControllerRegister controllerRegister = new ControllerRegister();
             view.setVisible(false);
         } else if (source == view.getBtnLogin()) {
 
@@ -57,11 +47,14 @@ public class ControllerLogin implements ActionListener {
                 if ("user".equals(prio)) {
                     JOptionPane.showMessageDialog(view, "Login Berhasil");
                     ApplicationModel.setIdPengendara(email);
-                    cMenuUtama.loadViewMenuUtama();
+                    
+                    ControllerMenuUtama controllerMenuUtama = new ControllerMenuUtama();
                     view.setVisible(false);
+                    
                 } else if ("admin".equals(prio)) {
                     JOptionPane.showMessageDialog(view, "Login Berhasil");
-                    cAdmin.loadViewAdmin();
+                    
+                    ControllerAdmin controllerAdmin = new ControllerAdmin();
                     view.setVisible(false);
                 } else {
                     JOptionPane.showMessageDialog(view, "Email Atau Password Salah");

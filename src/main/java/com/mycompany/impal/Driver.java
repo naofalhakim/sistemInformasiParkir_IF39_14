@@ -11,7 +11,6 @@ package com.mycompany.impal;
  */
 public class Driver {
     public static void main(String[] args) {
-        ControllerLogin cLogin = new ControllerLogin();
-        cLogin.loadView();
+        ControllerLogin controllerLogin = new ControllerLogin();
     }
 }

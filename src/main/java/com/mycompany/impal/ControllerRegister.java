@@ -18,16 +18,10 @@ public class ControllerRegister implements ActionListener {
 
     private ApplicationModel model;
     private RegisterGUI2 view;
-    private ControllerLogin cLogin;
 
     public ControllerRegister() {
         model = new ApplicationModel();
         view = new RegisterGUI2();
-        cLogin =new ControllerLogin();
-
-    }
-
-    public void loadViewRegsiter() {
         view.setVisible(true);
         view.setActionListener(this);
     }
@@ -36,7 +30,6 @@ public class ControllerRegister implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         Object source = e.getSource();
 
-        
         String nama = view.getTxtNama().getText();
         String email = view.getTxtEmail().getText();
         String no_ktp = view.getTxtKTP().getText();
@@ -44,13 +37,13 @@ public class ControllerRegister implements ActionListener {
 
         try {
             if (source == view.getBtnRegis()) {
-                if (nama ==null || email==null || no_ktp==null || pass==null) {
+                if (nama == null || email == null || no_ktp == null || pass == null) {
                     JOptionPane.showMessageDialog(null, "Semua Data Harus Terisi");
                 } else if (pass.equals(view.getTxtRepass().getText())) {
                     if (model.inputPengendara(nama, email, no_ktp, pass)) {
                         JOptionPane.showMessageDialog(view, "Register Berhasil");
                         view.reset();
-                        cLogin.loadView();
+                        ControllerLogin cLogin = new ControllerLogin();
                         view.setVisible(false);
                     } else {
 
@@ -59,7 +52,7 @@ public class ControllerRegister implements ActionListener {
                     JOptionPane.showMessageDialog(null, "Password tidak sama");
                 }
             } else if (source == view.getBtnKembali()) {
-                cLogin.loadView();
+                ControllerLogin cLogin = new ControllerLogin();
                 view.setVisible(false);
             }
         } catch (Exception ae) {

@@ -17,19 +17,15 @@ import javax.swing.JOptionPane;
 public class ControllerPesanLokasi implements ActionListener {
 
     private ApplicationModel model;
-    private PesanLokasi view;
-    private ControllerMenuUtama cMenu;
+    private PesanLokasi view;    
 
     public ControllerPesanLokasi() {
         model = new ApplicationModel();
-        view = new PesanLokasi();
-        cMenu = new ControllerMenuUtama();
-    }
-
-    public void loadViewPesan() {
+        view = new PesanLokasi();        
         view.setActionListener(this);
         view.setVisible(true);
     }
+
 
     @Override
     public void actionPerformed(ActionEvent e) {
@@ -57,7 +53,7 @@ public class ControllerPesanLokasi implements ActionListener {
                 JOptionPane.showMessageDialog(view, "Lokasi Telah di Pesan");
             }
         } else if (source == view.getBtnKembali()) {
-            cMenu.loadViewMenuUtama();
+            ControllerMenuUtama cMenu= new ControllerMenuUtama();
             view.setVisible(false);
         }
     }

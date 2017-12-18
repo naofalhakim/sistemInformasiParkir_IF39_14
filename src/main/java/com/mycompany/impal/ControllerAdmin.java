@@ -17,28 +17,24 @@ public class ControllerAdmin implements ActionListener {
 
     private ApplicationModel model;
     private Admin view;
-    private ControllerLogin cLogin;
 
     public ControllerAdmin() {
         model = new ApplicationModel();
         view = new Admin();
-        model.setTableLokasi(view.getTblLokasiParkir());
-    }
-
-    public void loadViewAdmin() {
         view.setVisible(true);
         view.setActionListener(this);
+        model.setTableLokasi(view.getTblLokasiParkir());
     }
 
     @Override
     public void actionPerformed(ActionEvent e) {
         Object sourec = e.getSource();
         if (view.getBtnLogOut() == sourec) {
-            cLogin = new ControllerLogin();
-            cLogin.loadView();
+            
+            ControllerLogin cLogin = new ControllerLogin();
             view.setVisible(false);
         } else if (view.getBtndeletekamera() == sourec) {
-
+               ///belumm ada isi
         }
     }
 

@@ -17,17 +17,10 @@ public class ControllerMenuUtama implements ActionListener {
 
     private ApplicationModel model;
     private MenuUtama view;
-    private ControllerParkir cParkir;
-    private ControllerPesanLokasi cPesan;
 
     public ControllerMenuUtama() {
         model = new ApplicationModel();
         view = new MenuUtama();
-        cParkir = new ControllerParkir();
-        cPesan = new ControllerPesanLokasi();
-    }
-
-    public void loadViewMenuUtama() {
         view.setActionListener(this);
         view.setVisible(true);
     }
@@ -36,14 +29,14 @@ public class ControllerMenuUtama implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         Object source = e.getSource();
         if (source == view.getJPantau()) {
-            cParkir.loadViewParkir();
+            ControllerParkir cParkir = new ControllerParkir();
             view.setVisible(false);
         } else if (source == view.getJPesanLokasi()) {
-            cPesan.loadViewPesan();
+            ControllerPesanLokasi cPesan = new ControllerPesanLokasi();
             view.setVisible(false);
 
         } else if (source == view.getBtnParkir()) {
-            cParkir.loadViewParkir();
+            ControllerParkir cParkir = new ControllerParkir();
             view.setVisible(false);
         }
     }

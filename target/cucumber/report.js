@@ -50,21 +50,21 @@ formatter.match({
   "location": "DemoContext.data_user_baru_dimasukan_dan_tidak_duplikat_dengan_data_yang_sudah_ada_di_sistem()"
 });
 formatter.result({
-  "duration": 3149912,
+  "duration": 8363621,
   "status": "passed"
 });
 formatter.match({
   "location": "DemoContext.memasukan_data_user_baru()"
 });
 formatter.result({
-  "duration": 19634,
+  "duration": 39715,
   "status": "passed"
 });
 formatter.match({
   "location": "DemoContext.data_baru_user_sudah_benar()"
 });
 formatter.result({
-  "duration": 26774,
+  "duration": 58902,
   "status": "passed"
 });
 formatter.match({
@@ -77,7 +77,7 @@ formatter.match({
   "location": "DemoContext.respon(String)"
 });
 formatter.result({
-  "duration": 244978,
+  "duration": 1306550,
   "status": "passed"
 });
 formatter.scenario({
@@ -118,21 +118,21 @@ formatter.match({
   "location": "DemoContext.data_user_yang_sudah_ada_di_dalam_sistem_dan_data_user_tidak_sesuai()"
 });
 formatter.result({
-  "duration": 57563,
+  "duration": 52655,
   "status": "passed"
 });
 formatter.match({
   "location": "DemoContext.memasukkan_data_edit_user_yang_baru()"
 });
 formatter.result({
-  "duration": 28112,
+  "duration": 22311,
   "status": "passed"
 });
 formatter.match({
   "location": "DemoContext.data_edit_user_yang_baru_sudah_benar()"
 });
 formatter.result({
-  "duration": 23203,
+  "duration": 30343,
   "status": "passed"
 });
 formatter.match({
@@ -145,7 +145,7 @@ formatter.match({
   "location": "DemoContext.responupdate(String)"
 });
 formatter.result({
-  "duration": 99063,
+  "duration": 100401,
   "status": "passed"
 });
 formatter.uri("com/mycompany/impal/test/PantauParkir.feature");
@@ -195,15 +195,16 @@ formatter.match({
   "location": "PantauParkirContext.pengecekan_data_transaksi_parkir_dan_data_inputan_berupa_id_user_ditemukan()"
 });
 formatter.result({
-  "duration": 595712,
+  "duration": 649706,
   "status": "passed"
 });
 formatter.match({
   "location": "PantauParkirContext.data_hasil_pengecekan_sama_benar()"
 });
 formatter.result({
-  "duration": 28559,
-  "status": "passed"
+  "duration": 395356,
+  "error_message": "junit.framework.AssertionFailedError: expected:\u003ctrue\u003e but was:\u003cpaijo@gmail.com\u003e\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat junit.framework.Assert.failNotEquals(Assert.java:329)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:78)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:86)\r\n\tat com.mycompany.impal.test.PantauParkirContext.data_hasil_pengecekan_sama_benar(PantauParkirContext.java:48)\r\n\tat ✽.Ketika data hasil pengecekan sama( benar )(com/mycompany/impal/test/PantauParkir.feature:9)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -215,8 +216,7 @@ formatter.match({
   "location": "PantauParkirContext.respone_pantau_berhasil(String)"
 });
 formatter.result({
-  "duration": 136099,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 14,
@@ -251,14 +251,14 @@ formatter.match({
   "location": "PantauParkirContext.pengecekan_data_transaksi_parkir_dan_data_inputan_berupa_id_user_tidak_ditemukan()"
 });
 formatter.result({
-  "duration": 72289,
+  "duration": 91030,
   "status": "passed"
 });
 formatter.match({
   "location": "PantauParkirContext.data_hasil_pengecekan_tidak_ditemukan_id_transaksi_user_salah()"
 });
 formatter.result({
-  "duration": 24096,
+  "duration": 37483,
   "status": "passed"
 });
 formatter.match({
@@ -271,7 +271,7 @@ formatter.match({
   "location": "PantauParkirContext.respone_pantau_gagal(String)"
 });
 formatter.result({
-  "duration": 98616,
+  "duration": 84783,
   "status": "passed"
 });
 formatter.uri("com/mycompany/impal/test/PesanSpotParkir.feature");
@@ -326,21 +326,21 @@ formatter.match({
   "location": "PesanSpotParkirContext.data_user_dan_Data_Pemesanana_baru_dimasukan_dan_tidak_duplikat_dengan_data_yang_sudah_ada_di_sistem()"
 });
 formatter.result({
-  "duration": 58009,
+  "duration": 62918,
   "status": "passed"
 });
 formatter.match({
   "location": "PesanSpotParkirContext.memasukan_data_pemesanan()"
 });
 formatter.result({
-  "duration": 25435,
+  "duration": 74966,
   "status": "passed"
 });
 formatter.match({
   "location": "PesanSpotParkirContext.data_baru_pemesanan_sudah_benar()"
 });
 formatter.result({
-  "duration": 29451,
+  "duration": 36144,
   "status": "passed"
 });
 formatter.match({
@@ -353,7 +353,7 @@ formatter.match({
   "location": "PesanSpotParkirContext.respon_pesan_berhasil(String)"
 });
 formatter.result({
-  "duration": 107095,
+  "duration": 93708,
   "status": "passed"
 });
 formatter.scenario({
@@ -394,21 +394,21 @@ formatter.match({
   "location": "PesanSpotParkirContext.data_user_dan_Data_Pemesanana_baru_dimasukan_dan_duplikat_dengan_data_yang_sudah_ada_di_sistem()"
 });
 formatter.result({
-  "duration": 60687,
+  "duration": 70057,
   "status": "passed"
 });
 formatter.match({
   "location": "PesanSpotParkirContext.memasukan_data_pemesanan()"
 });
 formatter.result({
-  "duration": 32574,
+  "duration": 32575,
   "status": "passed"
 });
 formatter.match({
   "location": "PesanSpotParkirContext.data_baru_pemesanan_duplikat()"
 });
 formatter.result({
-  "duration": 36590,
+  "duration": 43284,
   "status": "passed"
 });
 formatter.match({
@@ -421,7 +421,7 @@ formatter.match({
   "location": "PesanSpotParkirContext.respon_pesan_gagal(String)"
 });
 formatter.result({
-  "duration": 87014,
+  "duration": 96385,
   "status": "passed"
 });
 formatter.uri("com/mycompany/impal/test/Register.feature");
@@ -476,21 +476,21 @@ formatter.match({
   "location": "RegisterContext.pengecekan_data_user_baru_dimasukan_dan_tidak_duplikat_dengan_data_yang_sudah_ada_di_sistem()"
 });
 formatter.result({
-  "duration": 69611,
+  "duration": 59794,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterContext.memasukan_data_user_baru_ke_dalam_sistem()"
 });
 formatter.result({
-  "duration": 40161,
+  "duration": 37929,
   "status": "passed"
 });
 formatter.match({
   "location": "DemoContext.data_baru_user_sudah_benar()"
 });
 formatter.result({
-  "duration": 62025,
+  "duration": 51763,
   "status": "passed"
 });
 formatter.match({
@@ -503,7 +503,7 @@ formatter.match({
   "location": "RegisterContext.respon_register_berhasil(String)"
 });
 formatter.result({
-  "duration": 112003,
+  "duration": 95492,
   "status": "passed"
 });
 formatter.scenario({
@@ -544,21 +544,21 @@ formatter.match({
   "location": "RegisterContext.pengecekan_data_baru_dimasukan_dan_terdapat_duplikat_dengan_data_yang_sudah_ada_di_sistem()"
 });
 formatter.result({
-  "duration": 62918,
+  "duration": 59794,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterContext.memasukan_data_user_baru_ke_dalam_sistem()"
 });
 formatter.result({
-  "duration": 29897,
+  "duration": 27220,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterContext.data_baru_user_sudah_benar_tetap_terdapat_duplikasi()"
 });
 formatter.result({
-  "duration": 26327,
+  "duration": 31236,
   "status": "passed"
 });
 formatter.match({
@@ -571,7 +571,7 @@ formatter.match({
   "location": "RegisterContext.respon_register_gagal(String)"
 });
 formatter.result({
-  "duration": 96831,
+  "duration": 82552,
   "status": "passed"
 });
 formatter.uri("com/mycompany/impal/test/RekapAreaParkir.feature");
@@ -621,14 +621,14 @@ formatter.match({
   "location": "PantauParkirContext.pengecekan_data_transaksi_parkir_dan_data_inputan_berupa_id_user_ditemukan()"
 });
 formatter.result({
-  "duration": 52654,
+  "duration": 61133,
   "status": "passed"
 });
 formatter.match({
   "location": "RekapAreaParkirContext.data_hasil_pengecekan_ditemukan_atau_sama_benar()"
 });
 formatter.result({
-  "duration": 639443,
+  "duration": 61133,
   "status": "passed"
 });
 formatter.match({
@@ -641,7 +641,7 @@ formatter.match({
   "location": "RekapAreaParkirContext.respon_berhasil_menampilkan(String)"
 });
 formatter.result({
-  "duration": 90584,
+  "duration": 100848,
   "status": "passed"
 });
 formatter.scenario({
@@ -677,14 +677,14 @@ formatter.match({
   "location": "PantauParkirContext.pengecekan_data_transaksi_parkir_dan_data_inputan_berupa_id_user_tidak_ditemukan()"
 });
 formatter.result({
-  "duration": 66934,
+  "duration": 89691,
   "status": "passed"
 });
 formatter.match({
   "location": "PantauParkirContext.data_hasil_pengecekan_tidak_ditemukan_id_transaksi_user_salah()"
 });
 formatter.result({
-  "duration": 40161,
+  "duration": 38821,
   "status": "passed"
 });
 formatter.match({
@@ -697,7 +697,7 @@ formatter.match({
   "location": "RekapAreaParkirContext.respon_rekap_spot_gagal_menampilkan(String)"
 });
 formatter.result({
-  "duration": 146808,
+  "duration": 152163,
   "status": "passed"
 });
 formatter.uri("com/mycompany/impal/test/TransaksiParkir.feature");
@@ -757,36 +757,34 @@ formatter.match({
   "location": "TransaksiParkirContext.pengecekan_data_transaksi_pemesanan_spot_parkir_dan_data_user_parkir()"
 });
 formatter.result({
-  "duration": 59794,
+  "duration": 67380,
   "status": "passed"
 });
 formatter.match({
   "location": "PantauParkirContext.data_hasil_pengecekan_sama_benar()"
 });
 formatter.result({
-  "duration": 74520,
-  "status": "passed"
+  "duration": 377061,
+  "error_message": "junit.framework.AssertionFailedError: expected:\u003ctrue\u003e but was:\u003cpaijo@gmail.com\u003e\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat junit.framework.Assert.failNotEquals(Assert.java:329)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:78)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:86)\r\n\tat com.mycompany.impal.test.PantauParkirContext.data_hasil_pengecekan_sama_benar(PantauParkirContext.java:48)\r\n\tat ✽.Ketika data hasil pengecekan sama( benar )(com/mycompany/impal/test/TransaksiParkir.feature:9)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "TransaksiParkirContext.user_parkir_bisa_parkir_sesuai_dengan_tempet_yang_dipesan()"
 });
 formatter.result({
-  "duration": 25435,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "TransaksiParkirContext.data_hasil_pengecekan_tidak_ditemukan_salah()"
 });
 formatter.result({
-  "duration": 22758,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "TransaksiParkirContext.user_parkir_berdasarkan_spot_tempat_parkir_yang_di_tentukan()"
 });
 formatter.result({
-  "duration": 25881,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 15,
@@ -826,21 +824,21 @@ formatter.match({
   "location": "TransaksiParkirContext.data_parkir_user_masuk_dengan_status_parkir_di_sistem_dan_tidak_duplikat()"
 });
 formatter.result({
-  "duration": 53994,
+  "duration": 53101,
   "status": "passed"
 });
 formatter.match({
   "location": "TransaksiParkirContext.data_sudah_masuk_ke_sistem_maka_countup_akan_di_mulai()"
 });
 formatter.result({
-  "duration": 22311,
+  "duration": 166889,
   "status": "passed"
 });
 formatter.match({
   "location": "TransaksiParkirContext.countup_sudah_mulai_menghitung()"
 });
 formatter.result({
-  "duration": 28559,
+  "duration": 29004,
   "status": "passed"
 });
 formatter.match({
@@ -853,7 +851,7 @@ formatter.match({
   "location": "TransaksiParkirContext.respon_dan_akan_mulai_dihitung_juga_untuk_biaya_parkir_user(String)"
 });
 formatter.result({
-  "duration": 87014,
+  "duration": 96831,
   "status": "passed"
 });
 formatter.scenario({
@@ -899,7 +897,7 @@ formatter.match({
   "location": "TransaksiParkirContext.data_durasi_parkir_pada_data_parkir()"
 });
 formatter.result({
-  "duration": 69165,
+  "duration": 103525,
   "status": "passed"
 });
 formatter.match({
@@ -912,7 +910,7 @@ formatter.match({
   "location": "TransaksiParkirContext.data_durasi_user_lebih_dari_detik_biaya_parkir_awal(int)"
 });
 formatter.result({
-  "duration": 189200,
+  "duration": 633641,
   "status": "passed"
 });
 formatter.match({
@@ -925,7 +923,7 @@ formatter.match({
   "location": "TransaksiParkirContext.perhitungan_biaya_parkir(int)"
 });
 formatter.result({
-  "duration": 134760,
+  "duration": 359212,
   "status": "passed"
 });
 formatter.match({
@@ -938,7 +936,7 @@ formatter.match({
   "location": "TransaksiParkirContext.data_durasi_parkir_user_lebih_dari_jam(int)"
 });
 formatter.result({
-  "duration": 112003,
+  "duration": 200356,
   "status": "passed"
 });
 formatter.match({
@@ -951,7 +949,7 @@ formatter.match({
   "location": "TransaksiParkirContext.biaya_parkir_menjadi_biaya_parkir_awal_n_biaya_parkir_tiap_jam_x(int)"
 });
 formatter.result({
-  "duration": 170012,
+  "duration": 160196,
   "status": "passed"
 });
 });

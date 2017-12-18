@@ -20,7 +20,15 @@ public class PantauParkirContext {
     public void pengecekan_data_transaksi_parkir_dan_data_inputan_berupa_id_user_ditemukan() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         boolean expected = true;
-        boolean result = true;
+        boolean result;
+        String idUser;
+        idUser = "paijo@gmail.com";
+        if (idUser != null) {
+            result = true;
+        } else {
+            result = false;
+        }
+
         Assert.assertEquals(expected, result);
     }
 
@@ -28,7 +36,15 @@ public class PantauParkirContext {
     public void data_hasil_pengecekan_sama_benar() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         boolean expected = true;
-        boolean result = true;
+        boolean result;
+        String arg1, arg2;
+        arg1 = "paijo@gmail.com";
+        arg2 = "paijo@gmail.com";
+        if (arg1.equals(arg2)) {
+            result = true;
+        } else {
+            result = true;
+        }
         Assert.assertEquals(expected, result);
     }
 

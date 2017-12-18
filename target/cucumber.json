@@ -18,7 +18,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3149912,
+              "duration": 8363621,
               "status": "passed"
             },
             "line": 8,
@@ -30,7 +30,7 @@
           },
           {
             "result": {
-              "duration": 19634,
+              "duration": 39715,
               "status": "passed"
             },
             "line": 9,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 26774,
+              "duration": 58902,
               "status": "passed"
             },
             "line": 10,
@@ -54,7 +54,7 @@
           },
           {
             "result": {
-              "duration": 244978,
+              "duration": 1306550,
               "status": "passed"
             },
             "line": 11,
@@ -88,7 +88,7 @@
         "steps": [
           {
             "result": {
-              "duration": 57563,
+              "duration": 52655,
               "status": "passed"
             },
             "line": 15,
@@ -100,7 +100,7 @@
           },
           {
             "result": {
-              "duration": 28112,
+              "duration": 22311,
               "status": "passed"
             },
             "line": 16,
@@ -112,7 +112,7 @@
           },
           {
             "result": {
-              "duration": 23203,
+              "duration": 30343,
               "status": "passed"
             },
             "line": 17,
@@ -124,7 +124,7 @@
           },
           {
             "result": {
-              "duration": 99063,
+              "duration": 100401,
               "status": "passed"
             },
             "line": 18,
@@ -174,7 +174,7 @@
         "steps": [
           {
             "result": {
-              "duration": 595712,
+              "duration": 649706,
               "status": "passed"
             },
             "line": 8,
@@ -186,8 +186,9 @@
           },
           {
             "result": {
-              "duration": 28559,
-              "status": "passed"
+              "duration": 395356,
+              "error_message": "junit.framework.AssertionFailedError: expected:\u003ctrue\u003e but was:\u003cpaijo@gmail.com\u003e\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat junit.framework.Assert.failNotEquals(Assert.java:329)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:78)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:86)\r\n\tat com.mycompany.impal.test.PantauParkirContext.data_hasil_pengecekan_sama_benar(PantauParkirContext.java:48)\r\n\tat ✽.Ketika data hasil pengecekan sama( benar )(com/mycompany/impal/test/PantauParkir.feature:9)\r\n",
+              "status": "failed"
             },
             "line": 9,
             "name": "data hasil pengecekan sama( benar )",
@@ -198,8 +199,7 @@
           },
           {
             "result": {
-              "duration": 136099,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 10,
             "name": "respone pantau berhasil \"munculkan visualisasi dari pemantauan kendaraan\"",
@@ -232,7 +232,7 @@
         "steps": [
           {
             "result": {
-              "duration": 72289,
+              "duration": 91030,
               "status": "passed"
             },
             "line": 15,
@@ -244,7 +244,7 @@
           },
           {
             "result": {
-              "duration": 24096,
+              "duration": 37483,
               "status": "passed"
             },
             "line": 16,
@@ -256,7 +256,7 @@
           },
           {
             "result": {
-              "duration": 98616,
+              "duration": 84783,
               "status": "passed"
             },
             "line": 17,
@@ -306,7 +306,7 @@
         "steps": [
           {
             "result": {
-              "duration": 58009,
+              "duration": 62918,
               "status": "passed"
             },
             "line": 8,
@@ -318,7 +318,7 @@
           },
           {
             "result": {
-              "duration": 25435,
+              "duration": 74966,
               "status": "passed"
             },
             "line": 9,
@@ -330,7 +330,7 @@
           },
           {
             "result": {
-              "duration": 29451,
+              "duration": 36144,
               "status": "passed"
             },
             "line": 10,
@@ -342,7 +342,7 @@
           },
           {
             "result": {
-              "duration": 107095,
+              "duration": 93708,
               "status": "passed"
             },
             "line": 11,
@@ -376,7 +376,7 @@
         "steps": [
           {
             "result": {
-              "duration": 60687,
+              "duration": 70057,
               "status": "passed"
             },
             "line": 15,
@@ -388,7 +388,7 @@
           },
           {
             "result": {
-              "duration": 32574,
+              "duration": 32575,
               "status": "passed"
             },
             "line": 16,
@@ -400,7 +400,7 @@
           },
           {
             "result": {
-              "duration": 36590,
+              "duration": 43284,
               "status": "passed"
             },
             "line": 17,
@@ -412,7 +412,7 @@
           },
           {
             "result": {
-              "duration": 87014,
+              "duration": 96385,
               "status": "passed"
             },
             "line": 18,
@@ -462,7 +462,7 @@
         "steps": [
           {
             "result": {
-              "duration": 69611,
+              "duration": 59794,
               "status": "passed"
             },
             "line": 8,
@@ -474,7 +474,7 @@
           },
           {
             "result": {
-              "duration": 40161,
+              "duration": 37929,
               "status": "passed"
             },
             "line": 9,
@@ -486,7 +486,7 @@
           },
           {
             "result": {
-              "duration": 62025,
+              "duration": 51763,
               "status": "passed"
             },
             "line": 10,
@@ -498,7 +498,7 @@
           },
           {
             "result": {
-              "duration": 112003,
+              "duration": 95492,
               "status": "passed"
             },
             "line": 11,
@@ -532,7 +532,7 @@
         "steps": [
           {
             "result": {
-              "duration": 62918,
+              "duration": 59794,
               "status": "passed"
             },
             "line": 15,
@@ -544,7 +544,7 @@
           },
           {
             "result": {
-              "duration": 29897,
+              "duration": 27220,
               "status": "passed"
             },
             "line": 16,
@@ -556,7 +556,7 @@
           },
           {
             "result": {
-              "duration": 26327,
+              "duration": 31236,
               "status": "passed"
             },
             "line": 17,
@@ -568,7 +568,7 @@
           },
           {
             "result": {
-              "duration": 96831,
+              "duration": 82552,
               "status": "passed"
             },
             "line": 18,
@@ -618,7 +618,7 @@
         "steps": [
           {
             "result": {
-              "duration": 52654,
+              "duration": 61133,
               "status": "passed"
             },
             "line": 8,
@@ -630,7 +630,7 @@
           },
           {
             "result": {
-              "duration": 639443,
+              "duration": 61133,
               "status": "passed"
             },
             "line": 9,
@@ -642,7 +642,7 @@
           },
           {
             "result": {
-              "duration": 90584,
+              "duration": 100848,
               "status": "passed"
             },
             "line": 10,
@@ -676,7 +676,7 @@
         "steps": [
           {
             "result": {
-              "duration": 66934,
+              "duration": 89691,
               "status": "passed"
             },
             "line": 14,
@@ -688,7 +688,7 @@
           },
           {
             "result": {
-              "duration": 40161,
+              "duration": 38821,
               "status": "passed"
             },
             "line": 15,
@@ -700,7 +700,7 @@
           },
           {
             "result": {
-              "duration": 146808,
+              "duration": 152163,
               "status": "passed"
             },
             "line": 16,
@@ -750,7 +750,7 @@
         "steps": [
           {
             "result": {
-              "duration": 59794,
+              "duration": 67380,
               "status": "passed"
             },
             "line": 8,
@@ -762,8 +762,9 @@
           },
           {
             "result": {
-              "duration": 74520,
-              "status": "passed"
+              "duration": 377061,
+              "error_message": "junit.framework.AssertionFailedError: expected:\u003ctrue\u003e but was:\u003cpaijo@gmail.com\u003e\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat junit.framework.Assert.failNotEquals(Assert.java:329)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:78)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:86)\r\n\tat com.mycompany.impal.test.PantauParkirContext.data_hasil_pengecekan_sama_benar(PantauParkirContext.java:48)\r\n\tat ✽.Ketika data hasil pengecekan sama( benar )(com/mycompany/impal/test/TransaksiParkir.feature:9)\r\n",
+              "status": "failed"
             },
             "line": 9,
             "name": "data hasil pengecekan sama( benar )",
@@ -774,8 +775,7 @@
           },
           {
             "result": {
-              "duration": 25435,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 10,
             "name": "user parkir bisa parkir sesuai dengan tempet yang dipesan",
@@ -786,8 +786,7 @@
           },
           {
             "result": {
-              "duration": 22758,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 11,
             "name": "data hasil pengecekan tidak ditemukan( salah )",
@@ -798,8 +797,7 @@
           },
           {
             "result": {
-              "duration": 25881,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 12,
             "name": "user parkir berdasarkan spot tempat parkir yang di tentukan",
@@ -826,7 +824,7 @@
         "steps": [
           {
             "result": {
-              "duration": 53994,
+              "duration": 53101,
               "status": "passed"
             },
             "line": 16,
@@ -838,7 +836,7 @@
           },
           {
             "result": {
-              "duration": 22311,
+              "duration": 166889,
               "status": "passed"
             },
             "line": 17,
@@ -850,7 +848,7 @@
           },
           {
             "result": {
-              "duration": 28559,
+              "duration": 29004,
               "status": "passed"
             },
             "line": 18,
@@ -862,7 +860,7 @@
           },
           {
             "result": {
-              "duration": 87014,
+              "duration": 96831,
               "status": "passed"
             },
             "line": 19,
@@ -896,7 +894,7 @@
         "steps": [
           {
             "result": {
-              "duration": 69165,
+              "duration": 103525,
               "status": "passed"
             },
             "line": 23,
@@ -908,7 +906,7 @@
           },
           {
             "result": {
-              "duration": 189200,
+              "duration": 633641,
               "status": "passed"
             },
             "line": 24,
@@ -926,7 +924,7 @@
           },
           {
             "result": {
-              "duration": 134760,
+              "duration": 359212,
               "status": "passed"
             },
             "line": 25,
@@ -944,7 +942,7 @@
           },
           {
             "result": {
-              "duration": 112003,
+              "duration": 200356,
               "status": "passed"
             },
             "line": 26,
@@ -962,7 +960,7 @@
           },
           {
             "result": {
-              "duration": 170012,
+              "duration": 160196,
               "status": "passed"
             },
             "line": 27,

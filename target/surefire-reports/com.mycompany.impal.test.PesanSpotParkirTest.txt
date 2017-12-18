@@ -1,4 +1,36 @@
 -------------------------------------------------------------------------------
 Test set: com.mycompany.impal.test.PesanSpotParkirTest
 -------------------------------------------------------------------------------
-Tests run: 63, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.25 sec
+Tests run: 63, Failures: 4, Errors: 0, Skipped: 4, Time elapsed: 0.407 sec <<< FAILURE!
+Ketika data hasil pengecekan sama( benar )(Skenario: Validasi Id parkir user benar)  Time elapsed: 0 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: expected:<true> but was:<paijo@gmail.com>
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.failNotEquals(Assert.java:329)
+	at junit.framework.Assert.assertEquals(Assert.java:78)
+	at junit.framework.Assert.assertEquals(Assert.java:86)
+	at com.mycompany.impal.test.PantauParkirContext.data_hasil_pengecekan_sama_benar(PantauParkirContext.java:48)
+	at ?.Ketika data hasil pengecekan sama( benar )(com/mycompany/impal/test/PantauParkir.feature:9)
+Skenario: Validasi Id parkir user benar  Time elapsed: 0.002 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: expected:<true> but was:<paijo@gmail.com>
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.failNotEquals(Assert.java:329)
+	at junit.framework.Assert.assertEquals(Assert.java:78)
+	at junit.framework.Assert.assertEquals(Assert.java:86)
+	at com.mycompany.impal.test.PantauParkirContext.data_hasil_pengecekan_sama_benar(PantauParkirContext.java:48)
+	at ?.Ketika data hasil pengecekan sama( benar )(com/mycompany/impal/test/PantauParkir.feature:9)
+Ketika data hasil pengecekan sama( benar )(Skenario: Mengecek User Pesan Spot)  Time elapsed: 0 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: expected:<true> but was:<paijo@gmail.com>
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.failNotEquals(Assert.java:329)
+	at junit.framework.Assert.assertEquals(Assert.java:78)
+	at junit.framework.Assert.assertEquals(Assert.java:86)
+	at com.mycompany.impal.test.PantauParkirContext.data_hasil_pengecekan_sama_benar(PantauParkirContext.java:48)
+	at ?.Ketika data hasil pengecekan sama( benar )(com/mycompany/impal/test/TransaksiParkir.feature:9)
+Skenario: Mengecek User Pesan Spot  Time elapsed: 0.001 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: expected:<true> but was:<paijo@gmail.com>
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.failNotEquals(Assert.java:329)
+	at junit.framework.Assert.assertEquals(Assert.java:78)
+	at junit.framework.Assert.assertEquals(Assert.java:86)
+	at com.mycompany.impal.test.PantauParkirContext.data_hasil_pengecekan_sama_benar(PantauParkirContext.java:48)
+	at ?.Ketika data hasil pengecekan sama( benar )(com/mycompany/impal/test/TransaksiParkir.feature:9)
